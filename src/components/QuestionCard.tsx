@@ -226,32 +226,14 @@ export default function QuestionCard() {
             }
 
             {showResult ? (
-                // <div className="text-center space-y-4 p-8">
-                //     <h2 className="text-2xl font-bold">Exam Complete 🎉</h2>
-                //     <p className="text-lg">You scored {score} out of {questions.length}</p>
-                //     <p className={`text-xl font-semibold ${passed ? 'text-green-600' : 'text-red-600'}`}>
-                //         {passed ? "✅ You passed the exam!" : "❌ You failed. Try again!"}
-                //     </p>
-                //     <button
-                //         onClick={() => {
-                //             setCurrentIndex(0);
-                //             setScore(0);
-                //             setAnsweredQuestions(0);
-                //             setSelectedOption(null);
-                //             setIsSubmitted(false);
-                //             setShowResult(false);
-                //         }}
-                //         className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700"
-                //     >
-                //         Try Again
-                //     </button>
-                // </div>
-                <G1Result
-                    score={score}    
-                    questions={questions}                    
-                    passed={passed}
-                    onReset={handleReset}
-                />
+                <div>
+                    <G1Result
+                        score={score}    
+                        questions={questions}                    
+                        passed={passed}
+                        onReset={handleReset}
+                    />
+                </div>
             ) : (
                 <div ref={questionRef} className="flex gap-6 flex-col md:flex-row">
                     {/* Options */}
