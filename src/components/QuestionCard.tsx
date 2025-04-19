@@ -20,7 +20,7 @@ const questions: Question[] = [
         correctIndex: 2,
         explanation: "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
     },
-    {
+    {   
         image: "/assets/images/2.png",
         options: ["Wiggly road", "Winding road", "Sharp road", "Bending road"],
         correctIndex: 1,
@@ -136,16 +136,22 @@ const questions: Question[] = [
     }
 ];
 
-export default function QuestionCard() {
+interface QuestionCardProps {
+interface QuestionCardProps {\n    onReview: (reviewedQuestions: Question[]) => void;\n  }\n
+  
+
+export default function QuestionCard(props:QuestionCardProps) {
+    const { onReview } = props;
     const [currentIndex, setCurrentIndex] = useState<number>(0);
     const [selectedOption, setSelectedOption] = useState<number | null>(null);
     const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
     const [showResult, setShowResult] = useState<boolean>(false);
     const [score, setScore] = useState<number>(0);
     const [answeredQuestions, setAnsweredQuestions] = useState<number>(0);
-    const questionRef = useRef<HTMLDivElement>(null);
+    const questionRef = useRef<HTMLDivElement>(null); 
+    const [reviewedQuestions, setReviewedQuestions] = useState<Question[]>([]); 
 
-    const question = questions[currentIndex];
+    const question = questions[currentIndex]; 
 
     const handleOptionClick = (index:number) => {
         if (!isSubmitted) setSelectedOption(index);
@@ -157,9 +163,14 @@ export default function QuestionCard() {
         setIsSubmitted(true);
         setAnsweredQuestions(prev => prev + 1);
 
-        const isCorrect = selectedOption === question.correctIndex;
+        const isCorrect = selectedOption === question.correctIndex; 
+        if(!isCorrect){
+            setReviewedQuestions(prev => [...prev, questions[currentIndex]])
+        }
+
         if (isCorrect) {
-            setScore(prev => prev + 1);
+            console.log('Question Index:', currentIndex)
+            setScore(prev => prev + 1); 
             setTimeout(() => {
                 if (currentIndex < questions.length - 1) {
                     handleNext();
@@ -167,7 +178,7 @@ export default function QuestionCard() {
                     setShowResult(true);
                 }
             }, 1000);
-        }
+        } 
     };
 
     const handleReset = () => {
@@ -190,6 +201,8 @@ export default function QuestionCard() {
                     setIsSubmitted(false);
 
                     const nextIndex = currentIndex + 1;
+                    
+                    console.log('last question', nextIndex)
                     if (nextIndex < questions.length) {
                         setCurrentIndex(nextIndex);
 
@@ -201,6 +214,11 @@ export default function QuestionCard() {
                         );
                     } else {
                         setShowResult(true);
+                        if (reviewedQuestions.length > 0) {
+                            onReview(reviewedQuestions);
+                         }else{
+                            onReview([]);
+                         }
                     }
                 },
             });
@@ -231,16 +249,17 @@ export default function QuestionCard() {
                         score={score}    
                         questions={questions}                    
                         passed={passed}
+                        onReview={onReview}
                         onReset={handleReset}
                     />
                 </div>
             ) : (
-                <div ref={questionRef} className="flex gap-6 flex-col md:flex-row">
-                    {/* Options */}
-                    <div className="flex-1 space-y-4">
+                <div ref={questionRef} className="question-container flex gap-6 flex-col md:flex-row">
+                   {/* Options */}
+                    <div className="flex-1 space-y-4 order-2 md:order-1">
                         <h2 className="text-xl font-bold">What is the purpose of this traffic sign?</h2>
                         <ul className="space-y-2">
-                            {question.options.map((option, index) => (
+                            {question.options.map((option, index) => (      
                                 <li
                                     key={index}
                                     onClick={() => handleOptionClick(index)}
@@ -292,8 +311,8 @@ export default function QuestionCard() {
                     </div>
 
                     {/* Image */}
-                    <div className="md:w-[400px] flex items-center justify-center ">
-                        <div className="relative w-[400px] h-[300px] overflow-hidden">
+                    <div className="image-container md:w-[400px] flex items-center justify-center w-full md:mx-auto order-1 md:order-2 rounded-lg">
+                        <div className="relative w-full h-[300px] overflow-hidden md:w-[400px] rounded-lg ">
                             <Image
                                 src={getImagePlaceholder(currentIndex)}
                                 alt="Traffic Sign"
