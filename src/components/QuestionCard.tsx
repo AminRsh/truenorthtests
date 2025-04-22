@@ -4,139 +4,10 @@ import { useRef, useState, useEffect } from "react";
 import gsap from "gsap";
 import Image from "next/image";
 import G1Result from "./G1Result";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useParams } from "next/navigation";
+import { Question } from "@/lib/types";
 
-type Question = {
-    image: string;
-    options: string[];
-    correctIndex: number;
-    explanation: string;
-};
-
-const questions: Question[] = [
-    {
-        image: "/assets/images/1.png",
-        options: ["Stop sign", "Stop if road is crowded", "Stop sign ahead", "None of the above"],
-        correctIndex: 2,
-        explanation: "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
-    },
-    {
-        image: "/assets/images/2.png",
-        options: ["Wiggly road", "Winding road", "Sharp road", "Bending road"],
-        correctIndex: 1,
-        explanation: "Winding road sign warns the drivers to slow their vehicles as there are many curves on the road. Moreover, Winding Road refers to the frequent turns on the path in various directions."
-    },
-    {
-        image: "/assets/images/3.png",
-        options: ["No passing allowed", "braking is not allowed","No more than 2 cars on road","None of these"],
-        correctIndex: 0,
-        explanation: "It's not safe to pass the vehicle on the road as the road is not broad enough, there may be curvy roads ahead or lack of visibility."
-    },
-    {
-        image: "/assets/images/4.png",
-        options: ["There is barrier in front", "Keep right, road splits in two", "Keep left, road splits in two", "Stop at barrier"],
-        correctIndex: 1,
-        explanation: "Stay at the right side of traffic island."
-    },
-    {
-        image: "/assets/images/5.png",
-        options: ["Intersection ahead", "Plus-road ahead", "Left for right turn before straight turn", "None of the above"],
-        correctIndex: 0,
-        explanation: "This is an intersection road ahead sign which warns the drivers to slow down their vehicle as two or more lanes are connecting ahead."
-    },
-    {
-        image: "/assets/images/6.png",
-        options: ["Narrow bridge ahead", "Road's merging", "Pavement narrows ahead", "None of the above"],
-        correctIndex: 2,
-        explanation: "This sign represents that the ahead road is not broad."
-    },
-    {
-        image: "/assets/images/7.png",
-        options: ["Left turn prohibited", "No U-turn", "No reversing", "Both A and B"],
-        correctIndex: 1,
-        explanation: "This sign means taking turn in the opposite direction is prohibited."
-    },
-    {
-        image: "/assets/images/8.png",
-        options: ["Pedestrian cross-over", "Senior citizen crossing", "School zone", "Playground area ahead"],
-        correctIndex: 2,
-        explanation: "This is a School Zone ahead sign which warns you to slow down your vehicle during the school timings."
-    },
-    {
-        image: "/assets/images/9.png",
-        options: ["Snowing ahead", "Drive carefully in summers", "Pavement slippery when wet", "None of these"],
-        correctIndex: 2,
-        explanation: "This is a warning sign which explains that driver have to proceed carefully as the road is slippery when wet and the reason for this maybe snow, rain or dew."
-    },
-    {
-        image: "/assets/images/10.png",
-        options: ["Traffic sign ahead", "Intersection ahead", "Stop at traffic intersection", "No need to stop at intersection"],
-        correctIndex: 0,
-        explanation: "This sign represents that there is a traffic sign ahead and drivers have to slow down their vehicle or come to a complete stop when the lights turn red."
-    },
-    {
-        image: "/assets/images/11.png",
-        options: ["Do not stop between in the area between two of these signs", "No stopping", "Do not enter", "Stop for inspection"],
-        correctIndex: 0,
-        explanation: "This sign means that parking in a specific area which is in between the signs and parking the vehicle at any point of time is prohibited as it's not safe for the drivers to park their vehicle at such warning spots."
-    },
-    {
-        image: "/assets/images/12.png",
-        options: ["No right turn at intersection", "No left turn at intersection", "Do not turn at intersection", "No stopping on left side"],
-        correctIndex: 1,
-        explanation: "At intersection its prohibited to take left turn."
-    },
-    {
-        image: "/assets/images/13.png",
-        options: ["Stop sign ahead", "Yield sign", "Give way sign", "Stop sign"],
-        correctIndex: 3,
-        explanation: "It's a regulatory sign which means this sign gives you some kind of direction and its mandatory to obey it. Thus, whenever you see this sign, you have to come to a full stop."
-    },
-    {
-        image: "/assets/images/14.png",
-        options: ["Give way sign", "Yield sign", "Stop sign", "Both A and B"],
-        correctIndex: 3,
-        explanation: "This is a yield sign which is an upside-down triangle. It ensures that you have to wait until the traffic at intersection gets clear along with this if it's necessary than stop your vehicle."
-    },
-    {
-        image: "/assets/images/15.png",
-        options: ["Keep right on multilane road, slower traffic", "Keep left on multilane road, slower traffic", "Keep your vehicle on right and let slower traffic pass from left", "None of these"],
-        correctIndex: 0,
-        explanation: "On multi-lane road drivers must keep their vehicle on right lane as the traffic is slow there."
-    },
-    {
-        image: "/assets/images/16.png",
-        options: ["Two way left turn lane only", "One way left turn lane only", "Both A and B", "None of these"],
-        correctIndex: 0,
-        explanation: "This is a dual left turn sign which means that in any of the direction there is only left turn."
-    },
-    {
-        image: "/assets/images/17.png",
-        options: ["Do not turn left at red light", "Do not turn right at red light", "Do not go straight at red light", "None of these"],
-        correctIndex: 1,
-        explanation: "This sign represents that drivers must not turn right when the traffic light is red at the intersection."
-    },
-    {
-        image: "/assets/images/18.png",
-        options: ["Truck may enter from left side", "Truck bridge entrance from right side", "Fire truck entrance", "None of the above"],
-        correctIndex: 1,
-        explanation: "This sign shows that the trucks are allowed to enter from the right side of the lane."
-    },
-    {
-        image: "/assets/images/19.png",
-        options: ["Wild animals cross at this road", "Deer crossing area", "Both A and B", "None of the above"],
-        correctIndex: 2,
-        explanation: "This sign indicates warning regarding the regular crossing of lanes by deer."
-    },
-    {
-        image: "/assets/images/20.png",
-        options: ["Survey ahead", "Road work temporary sign", "Cement ahead", "Road closed ahead"],
-        correctIndex: 1,
-        explanation: "It indicates that some work is going on road for short duration."
-    }
-];
-
-export default function QuestionCard() {
+export default function QuestionCard({ questions }: { questions: Question[] }) {
     const [currentIndex, setCurrentIndex] = useState<number>(0);
     const [selectedOption, setSelectedOption] = useState<number | null>(null);
     const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
@@ -145,14 +16,15 @@ export default function QuestionCard() {
     const [answeredQuestions, setAnsweredQuestions] = useState<number>(0);
     const questionRef = useRef<HTMLDivElement>(null);
     
-    // Get search params for reset functionality
     const searchParams = useSearchParams();
+    const params = useParams();
+    const id = params?.id?.toString() || '1'; 
     const shouldReset = searchParams.get('reset') === 'true';
     
     useEffect(() => {
         if (shouldReset) {
             handleReset();
-            // Clean up URL if needed - we could use router.replace but we'd need to add another import
+            
             if (typeof window !== 'undefined') {
                 const newUrl = window.location.pathname;
                 window.history.replaceState({}, '', newUrl);
@@ -175,13 +47,12 @@ export default function QuestionCard() {
         const isCorrect = selectedOption === question.correctIndex;
         if (isCorrect) {
             setScore(prev => prev + 1);
-            
-            // Only show result on the last question
-            if (currentIndex === questions.length - 1) {
-                setTimeout(() => {
-                    setShowResult(true);
-                }, 1000);
-            }
+        }
+        
+        if (currentIndex === questions.length - 1) {
+            setTimeout(() => {
+                setShowResult(true);
+            }, 1000);
         }
     };
 
@@ -208,7 +79,7 @@ export default function QuestionCard() {
                     if (nextIndex < questions.length) {
                         setCurrentIndex(nextIndex);
 
-                        // Animate back in
+                        
                         gsap.fromTo(
                             questionRef.current,
                             { opacity: 0, y: 30 },
@@ -230,7 +101,6 @@ export default function QuestionCard() {
 
     return (
         <div className="max-w-4xl mx-auto py-8 px-6 bg-white rounded-2xl shadow-lg relative">
-            {/* Progress tracker */}
             {
                 !showResult && (
                     <div className="absolute top-4 right-4 bg-blue-100 p-2 rounded-lg shadow-2xl text-blue-800 text-sm z-10 ">
@@ -246,6 +116,7 @@ export default function QuestionCard() {
                         score={score}    
                         questions={questions}                    
                         passed={passed}
+                        id={id}
                     />
                 </div>
             ) : (
@@ -315,17 +186,14 @@ export default function QuestionCard() {
 
                     </div>
 
-                    {/* Image */}
-                    <div className="md:w-[400px] flex items-center justify-center ">
-                        <div className="relative w-[400px] h-[300px] overflow-hidden">
+                    <div className="flex items-center justify-center ">
                             <Image
                                 src={getImagePlaceholder(currentIndex)}
                                 alt="Traffic Sign"
-                                className="object-contain rounded-lg"
-                                fill
-                                sizes="400px"
+                                className="object-cover rounded-lg shadow-2xl"
+                                width={400}
+                                height={300}
                             />
-                        </div>
                     </div>
                 </div>
             )}
