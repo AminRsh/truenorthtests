@@ -5,10 +5,10 @@ import { Question } from "@/lib/types";
 import QuestionCard from "@/components/QuestionCard";
 
 interface PageProps {
-    params: { id: string };
+    params: Promise<{ id: string }>;
 }
 
-export default async function TestPage({ params }: PageProps) {
+export default async function Page({ params }: PageProps) {
     const { id } = await params;
     const questions: Question[] | null = await getTestData(id);
     if (!questions) return notFound();
