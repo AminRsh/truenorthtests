@@ -193,6 +193,8 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                                 className="object-cover rounded-lg shadow-2xl"
                                 width={400}
                                 height={300}
+                                style={{ height: 'auto' }}
+                                priority
                             />
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 
-export default function HomePage() {
+export default function Page() {
     const testCount = 8;
 
     return (
