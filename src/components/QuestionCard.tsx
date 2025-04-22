@@ -1,9 +1,10 @@
 "use client"
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import gsap from "gsap";
 import Image from "next/image";
 import G1Result from "./G1Result";
+import { useSearchParams } from "next/navigation";
 
 type Question = {
     image: string;
@@ -11,7 +12,6 @@ type Question = {
     correctIndex: number;
     explanation: string;
 };
-
 
 const questions: Question[] = [
     {
@@ -144,10 +144,25 @@ export default function QuestionCard() {
     const [score, setScore] = useState<number>(0);
     const [answeredQuestions, setAnsweredQuestions] = useState<number>(0);
     const questionRef = useRef<HTMLDivElement>(null);
+    
+    // Get search params for reset functionality
+    const searchParams = useSearchParams();
+    const shouldReset = searchParams.get('reset') === 'true';
+    
+    useEffect(() => {
+        if (shouldReset) {
+            handleReset();
+            // Clean up URL if needed - we could use router.replace but we'd need to add another import
+            if (typeof window !== 'undefined') {
+                const newUrl = window.location.pathname;
+                window.history.replaceState({}, '', newUrl);
+            }
+        }
+    }, [shouldReset]);
 
     const question = questions[currentIndex];
 
-    const handleOptionClick = (index:number) => {
+    const handleOptionClick = (index: number) => {
         if (!isSubmitted) setSelectedOption(index);
     };
 
@@ -160,13 +175,13 @@ export default function QuestionCard() {
         const isCorrect = selectedOption === question.correctIndex;
         if (isCorrect) {
             setScore(prev => prev + 1);
-            setTimeout(() => {
-                if (currentIndex < questions.length - 1) {
-                    handleNext();
-                } else {
+            
+            // Only show result on the last question
+            if (currentIndex === questions.length - 1) {
+                setTimeout(() => {
                     setShowResult(true);
-                }
-            }, 1000);
+                }, 1000);
+            }
         }
     };
 
@@ -177,7 +192,7 @@ export default function QuestionCard() {
         setSelectedOption(null);
         setIsSubmitted(false);
         setShowResult(false);
-      };
+    };
 
     const handleNext = () => {
         if (questionRef.current) {
@@ -231,7 +246,6 @@ export default function QuestionCard() {
                         score={score}    
                         questions={questions}                    
                         passed={passed}
-                        onReset={handleReset}
                     />
                 </div>
             ) : (
@@ -267,7 +281,17 @@ export default function QuestionCard() {
                         {isSubmitted && (
                             <div className="mt-4">
                                 {selectedOption === question.correctIndex ? (
-                                    <p className="text-green-600 font-semibold">Correct Answer!</p>
+                                    <div>
+                                        <p className="text-green-600 font-semibold">Correct Answer!</p>
+                                        {currentIndex < questions.length - 1 && (
+                                            <button
+                                                onClick={handleNext}
+                                                className="mt-4 px-4 py-2 bg-purple-600 text-white rounded-xl hover:bg-purple-700"
+                                            >
+                                                Next Question
+                                            </button>
+                                        )}
+                                    </div>
                                 ) : (
                                     <>
                                         <p className="text-red-600 font-semibold">Incorrect</p>
