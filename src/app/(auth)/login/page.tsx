@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 // import GoogleSignInButton from "./google/GoogleSignInButton";
-// import LoginForm from "./LoginForm";
+import LoginForm from "./LoginForm";
 
 export const metadata: Metadata = {
     title: "Login",
@@ -22,7 +22,7 @@ export default function Page() {
                             <span>OR</span>
                             <div className="h-px flex-1 bg-muted" />
                         </div>
-                        {/* <LoginForm /> */}
+                        <LoginForm />
                         <Link href="/signup" className="block text-center hover:underline">
                             Don&apos;t have an account? Sign up
                         </Link>

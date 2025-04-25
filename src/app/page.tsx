@@ -58,16 +58,18 @@ export default function Home() {
             </div>
             <h2 className="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Tests We Support</h2>
             <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <Link href="/G1" >
               <div className="flex flex-col gap-3 pb-3">
                 <div
                   className="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
                   style={{ backgroundImage: 'url("https://cdn.usegalileo.ai/sdxl10/90d5cb58-ff1c-40e9-b364-5873127f2a21.png")' }}
                 ></div>
                 <div>
-                  <p className="text-[#0e141b] text-base font-medium leading-normal">SAT</p>
-                  <p className="text-[#4e7397] text-sm font-normal leading-normal">Prepare effectively for the SAT with our comprehensive resources.</p>
+                  <p className="text-[#0e141b] text-base font-medium leading-normal">ON G1 driving test</p>
+                  <p className="text-[#4e7397] text-sm font-normal leading-normal">Prepare effectively for the G1 test with our comprehensive resources.</p>
                 </div>
               </div>
+              </Link>
               <div className="flex flex-col gap-3 pb-3">
                 <div
                   className="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
