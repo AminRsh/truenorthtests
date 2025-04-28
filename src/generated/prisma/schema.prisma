@@ -14,15 +14,14 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
 model User {
-  id       Int       @id @default(autoincrement())
-  displayName String
-  email    String?    @unique
+  id           Int       @id @default(autoincrement())
+  displayName  String
+  email        String?   @unique
   passwordHash String?
-  avatarUrl String?
-  sessions Session[]
-  createdAt DateTime @default(now())
+  avatarUrl    String?
+  sessions     Session[]
+  createdAt    DateTime  @default(now())
 
   @@map("users")
 }

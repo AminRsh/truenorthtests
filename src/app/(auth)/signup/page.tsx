@@ -16,7 +16,7 @@ export default function Page() {
                     <div className="space-y-1 text-center">
                         <h1 className="text-3xl font-bold">Sign up to TrueNorthTests</h1>
                         <p className="text-muted-foreground">
-                            A place where even <span className="italic">you</span> prepare for online tests.
+                            A place where <span className="italic">you</span> prepare for online tests.
                         </p>
                     </div>
                     <div className="space-y-5">
@@ -30,6 +30,7 @@ export default function Page() {
                     src={signupImage}
                     alt=""
                     className="hidden w-1/2 object-cover md:block"
+                    priority
                 />
             </div>
         </main>
