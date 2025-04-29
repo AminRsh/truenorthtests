@@ -4,13 +4,12 @@ import { lucia } from "@/auth";
 import prisma from "@/lib/prisma";
 import { loginSchema, LoginValues } from "@/lib/validation";
 import { verify } from "@node-rs/argon2";
-
 import { cookies } from "next/headers";
-import { redirect } from "next/navigation";
+
 
 export async function login(
     credentials: LoginValues,
-): Promise<{ error: string }> {
+): Promise<{ error?: string, success?: boolean }> {
     try {
         const { username, password } = loginSchema.parse(credentials);
 
@@ -52,7 +51,7 @@ export async function login(
             sessionCookie.attributes,
         );
 
-        return redirect("/");
+        return { success: true };
     } catch (error) {
         console.error(error);
         return {

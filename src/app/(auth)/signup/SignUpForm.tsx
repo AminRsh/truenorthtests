@@ -1,4 +1,3 @@
-
 "use client";
 
 import LoadingButton from "@/components/LoadingButton";
@@ -17,10 +16,11 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useState, useTransition } from "react";
 import { useForm } from "react-hook-form";
 import { signUp } from "./actions";
+import { useRouter } from "next/navigation";
 
 export default function SignUpForm() {
     const [error, setError] = useState<string>();
-
+    const router = useRouter();
     const [isPending, startTransition] = useTransition();
 
     const form = useForm<SignUpValues>({
@@ -35,16 +35,20 @@ export default function SignUpForm() {
     async function onSubmit(values: SignUpValues) {
         setError(undefined);
         startTransition(async () => {
-            const { error } = await signUp(values);
-            if (error) setError(error);
+            const result = await signUp(values);
+            if (result.error) {
+                setError(result.error);
+            } else if (result.success) {
+                router.push("/");
+            }
         });
     }
 
     return (
         <Form {...form}>
             <form 
-            onSubmit={form.handleSubmit(onSubmit)} 
-            className="space-y-3">
+                onSubmit={form.handleSubmit(onSubmit)}
+                className="space-y-3">
                 {error && <p className="text-center text-destructive">{error}</p>}
                 <FormField
                     control={form.control}
