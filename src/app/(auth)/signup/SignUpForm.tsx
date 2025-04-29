@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 "use client";
 
 import LoadingButton from "@/components/LoadingButton";
@@ -43,7 +43,7 @@ export default function SignUpForm() {
     return (
         <Form {...form}>
             <form 
-            // onSubmit={form.handleSubmit(onSubmit)} 
+            onSubmit={form.handleSubmit(onSubmit)} 
             className="space-y-3">
                 {error && <p className="text-center text-destructive">{error}</p>}
                 <FormField
