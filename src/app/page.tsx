@@ -1,7 +1,11 @@
 
+import { validateRequest } from '@/auth';
+import UserButton from '@/components/UserButton';
 import Link from 'next/link';
 
-export default function Home() {
+export default async function Home() {
+
+  const { user } = await validateRequest();
   return (
     <div className="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style={{ fontFamily: 'Inter, "Noto Sans", sans-serif' }}>
       <div className="layout-container flex h-full grow flex-col">
@@ -18,20 +22,19 @@ export default function Home() {
               <Link className="text-[#0e141b] text-sm font-medium leading-normal" href="#">About</Link>
               <Link className="text-[#0e141b] text-sm font-medium leading-normal" href="/dashboard">Your Dashboard</Link>
             </div>
-            <div className="flex gap-2">
-              <Link
-                href="/signup"
-                className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1980e6] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]">
-                <span className="truncate">Sign Up</span>
-              </Link>
-              <Link
-                href="/login"
-                className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e7edf3] text-[#0e141b] text-sm font-bold leading-normal tracking-[0.015em]"
-              >
-                <span className="truncate">Log In</span>
-              </Link>
-
-            </div>
+            {
+              user ? (<UserButton />) : (
+              <div className="flex gap-2">
+                <Link href="/signup"
+                  className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1980e6] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]">
+                  <span className="truncate">Sign Up</span>
+                </Link>
+                <Link href="/login"
+                  className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e7edf3] text-[#0e141b] text-sm font-bold leading-normal tracking-[0.015em]">
+                  <span className="truncate">Log In</span>
+                </Link>
+              </div>)
+            }
           </div>
         </header>
         <div className="px-40 flex flex-1 justify-center py-5">
@@ -59,16 +62,16 @@ export default function Home() {
             <h2 className="text-[#0e141b] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Tests We Support</h2>
             <div className="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
               <Link href="/G1" >
-              <div className="flex flex-col gap-3 pb-3">
-                <div
-                  className="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
-                  style={{ backgroundImage: 'url("https://cdn.usegalileo.ai/sdxl10/90d5cb58-ff1c-40e9-b364-5873127f2a21.png")' }}
-                ></div>
-                <div>
-                  <p className="text-[#0e141b] text-base font-medium leading-normal">ON G1 driving test</p>
-                  <p className="text-[#4e7397] text-sm font-normal leading-normal">Prepare effectively for the G1 test with our comprehensive resources.</p>
+                <div className="flex flex-col gap-3 pb-3">
+                  <div
+                    className="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                    style={{ backgroundImage: 'url("https://cdn.usegalileo.ai/sdxl10/90d5cb58-ff1c-40e9-b364-5873127f2a21.png")' }}
+                  ></div>
+                  <div>
+                    <p className="text-[#0e141b] text-base font-medium leading-normal">ON G1 driving test</p>
+                    <p className="text-[#4e7397] text-sm font-normal leading-normal">Prepare effectively for the G1 test with our comprehensive resources.</p>
+                  </div>
                 </div>
-              </div>
               </Link>
               <div className="flex flex-col gap-3 pb-3">
                 <div
