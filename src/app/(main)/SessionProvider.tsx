@@ -10,7 +10,10 @@ interface SessionContext {
 
 const SessionContext = createContext<SessionContext | null>(null);
 
-export default function SessionProvider({children, value}: React.PropsWithChildren<{
+export default function SessionProvider({
+    children,
+    value,
+}: React.PropsWithChildren<{
     value: { user: User | null; session: Session | null };
 }>) {
     return (

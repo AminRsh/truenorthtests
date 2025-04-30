@@ -1,15 +1,17 @@
 
 import { validateRequest } from '@/auth';
 import UserButton from '@/components/UserButton';
+
 import Link from 'next/link';
 
 export default async function Home() {
 
   const { user } = await validateRequest();
+  
   return (
     <div className="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style={{ fontFamily: 'Inter, "Noto Sans", sans-serif' }}>
       <div className="layout-container flex h-full grow flex-col">
-        <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-10 py-3">
+        <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf3] px-14 py-3">
           <div className="flex items-center gap-4 text-[#0e141b]">
             <div className="size-4">
               <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4H17.3334V17.3334H30.6666V30.6666H44V44H4V4Z" fill="currentColor"></path></svg>
@@ -33,7 +35,8 @@ export default async function Home() {
                   className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e7edf3] text-[#0e141b] text-sm font-bold leading-normal tracking-[0.015em]">
                   <span className="truncate">Log In</span>
                 </Link>
-              </div>)
+              </div>
+              )
             }
           </div>
         </header>
