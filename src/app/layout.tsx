@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
 import { ThemeProvider } from "next-themes";
 
 
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400', '600', '700']
-})
+// const inter = Inter({
+//   subsets: ['latin'],
+//   weight: ['400', '600', '700']
+// })
 
 export const metadata: Metadata = {
   title: "Your Path to Passing",
@@ -22,11 +22,14 @@ export default async function RootLayout({
 }>) {
 
   return (
-    <html className={inter.className}>
+    <html 
+    // className={inter.className}
+    suppressHydrationWarning
+    >
       <head>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       </head>
-      <body>
+      <body className="relative">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

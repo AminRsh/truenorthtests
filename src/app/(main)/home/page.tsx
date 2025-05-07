@@ -1,12 +1,15 @@
 
 import { validateRequest } from '@/auth';
+import PremiumButton from '@/components/ui/PremiumButton';
 import UserButton from '@/components/UserButton';
+
 
 import Link from 'next/link';
 
 export default async function Home() {
 
   const { user } = await validateRequest();
+
   
   return (
     <div className="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style={{ fontFamily: 'Inter, "Noto Sans", sans-serif' }}>
@@ -23,6 +26,7 @@ export default async function Home() {
               <Link className="text-[#0e141b] text-sm font-medium leading-normal" href="/categories">Tests</Link>
               <Link className="text-[#0e141b] text-sm font-medium leading-normal" href="#">About</Link>
               <Link className="text-[#0e141b] text-sm font-medium leading-normal" href="/dashboard">Your Dashboard</Link>
+              <PremiumButton />
             </div>
             {
               user ? (<UserButton />) : (

@@ -12,14 +12,16 @@ model User {
   id           String    @id
   username     String    @unique
   displayName  String
-  email        String?   @unique
+  email        String   @unique
   passwordHash String?
   avatarUrl    String?
   sessions     Session[]
+  subscription UserSubscription?
   createdAt    DateTime  @default(now())
 
   @@map("users")
 }
+
 
 model Session {
   id        String   @id
@@ -28,4 +30,20 @@ model Session {
   user      User     @relation(references: [id], fields: [userId], onDelete: Cascade)
 
   @@map("sessions")
+}
+
+model UserSubscription {
+  id                      String   @id @default(cuid())
+  userId                  String   @unique
+  user                    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  stripeCustomerId        String   @unique
+  stripeSubscriptionId    String   @unique
+  stripePriceId           String
+  stripeCurrentPeriodEnd  DateTime
+  stripeCancelAtPeriodEnd Boolean  @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("user_subscriptions")
 }
