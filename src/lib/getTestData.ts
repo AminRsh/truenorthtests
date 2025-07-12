@@ -1,4 +1,4 @@
-// src/lib/getTestData.ts
+
 import test1 from "@/data/GOne1.json";
 import test2 from "@/data/GOne2.json";
 import test3 from "@/data/GOne3.json";

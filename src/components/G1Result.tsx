@@ -25,7 +25,7 @@ export default function G1Result({ score, questions, passed, id}: G1ResultProps)
 
                 <h2 className="text-2xl font-bold">Exam Complete </h2>
 
-                <p className="text-lg">
+                <p className="text-lg text-black">
                     You scored <span className="font-semibold">{score}</span> out of {questions.length}
                 </p>
 

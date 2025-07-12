@@ -1,222 +1,222 @@
 [
     {
-        "image": "/assets/images/1.png",
+        "image": "/assets/images/test3/1.jpg",
         "options": [
-            "Stop sign",
-            "Stop if road is crowded",
-            "Stop sign ahead",
-            "None of the above"
-        ],
-        "correctIndex": 2,
-        "explanation": "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
-    },
-    {
-        "image": "/assets/images/2.png",
-        "options": [
-            "Wiggly road",
-            "Winding road",
-            "Sharp road",
-            "Bending road"
+            "Pedestrians are not allowed to stand in this area.",
+            "Do not stop your car in this area, unless loading or unloading passengers.",
+            "Both A and B.",
+            "None of these."
         ],
         "correctIndex": 1,
-        "explanation": "Winding road sign warns the drivers to slow their vehicles as there are many curves on the road. Moreover, Winding Road refers to the frequent turns on the path in various directions."
+        "explanation": "Drivers can load or unload the passengers in the area but they are not allowed to stop the vehicle for rest, parking or standing."
     },
     {
-        "image": "/assets/images/3.png",
+        "image": "/assets/images/test3/2.jpg",
         "options": [
-            "No passing allowed",
-            "braking is not allowed",
-            "No more than 2 cars on road",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "It's not safe to pass the vehicle on the road as the road is not broad enough, there may be curvy roads ahead or lack of visibility."
-    },
-    {
-        "image": "/assets/images/4.png",
-        "options": [
-            "There is barrier in front",
-            "Keep right, road splits in two",
-            "Keep left, road splits in two",
-            "Stop at barrier"
+            "No pedestrians allowed.",
+            "Loading and unloading of passengers allowed only with disabled person permit.",
+            "Parking for 1 hour only.",
+            "No loading or unloading of passengers allowed."
         ],
         "correctIndex": 1,
-        "explanation": "Stay at the right side of traffic island."
+        "explanation": "Drivers who have access to the disabled person permit can only pick or drop the individuals at the curb area."
     },
     {
-        "image": "/assets/images/5.png",
+        "image": "/assets/images/test3/3.jpg",
         "options": [
-            "Intersection ahead",
-            "Plus-road ahead",
-            "Left for right turn before straight turn",
-            "None of the above"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is an intersection road ahead sign which warns the drivers to slow down their vehicle as two or more lanes are connecting ahead."
-    },
-    {
-        "image": "/assets/images/6.png",
-        "options": [
-            "Narrow bridge ahead",
-            "Road's merging",
-            "Pavement narrows ahead",
-            "None of the above"
-        ],
-        "correctIndex": 2,
-        "explanation": "This sign represents that the ahead road is not broad."
-    },
-    {
-        "image": "/assets/images/7.png",
-        "options": [
-            "Left turn prohibited",
-            "No U-turn",
-            "No reversing",
-            "Both A and B"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign means taking turn in the opposite direction is prohibited."
-    },
-    {
-        "image": "/assets/images/8.png",
-        "options": [
-            "Pedestrian cross-over",
-            "Senior citizen crossing",
-            "School zone",
-            "Playground area ahead"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a School Zone ahead sign which warns you to slow down your vehicle during the school timings."
-    },
-    {
-        "image": "/assets/images/9.png",
-        "options": [
-            "Snowing ahead",
-            "Drive carefully in summers",
-            "Pavement slippery when wet",
-            "None of these"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a warning sign which explains that driver have to proceed carefully as the road is slippery when wet and the reason for this maybe snow, rain or dew."
-    },
-    {
-        "image": "/assets/images/10.png",
-        "options": [
-            "Traffic sign ahead",
-            "Intersection ahead",
-            "Stop at traffic intersection",
-            "No need to stop at intersection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign represents that there is a traffic sign ahead and drivers have to slow down their vehicle or come to a complete stop when the lights turn red."
-    },
-    {
-        "image": "/assets/images/11.png",
-        "options": [
-            "Do not stop between in the area between two of these signs",
-            "No stopping",
-            "Do not enter",
-            "Stop for inspection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign means that parking in a specific area which is in between the signs and parking the vehicle at any point of time is prohibited as it's not safe for the drivers to park their vehicle at such warning spots."
-    },
-    {
-        "image": "/assets/images/12.png",
-        "options": [
-            "No right turn at intersection",
-            "No left turn at intersection",
-            "Do not turn at intersection",
-            "No stopping on left side"
-        ],
-        "correctIndex": 1,
-        "explanation": "At intersection its prohibited to take left turn."
-    },
-    {
-        "image": "/assets/images/13.png",
-        "options": [
-            "Stop sign ahead",
-            "Yield sign",
-            "Give way sign",
-            "Stop sign"
+            "No accident allowed.",
+            "Pedestrians only path.",
+            "No vehicles allowed.",
+            "No pedestrians allowed sign."
         ],
         "correctIndex": 3,
-        "explanation": "It's a regulatory sign which means this sign gives you some kind of direction and its mandatory to obey it. Thus, whenever you see this sign, you have to come to a full stop."
+        "explanation": "This sign represents that the pedestrians do not have access to the particular area."
     },
     {
-        "image": "/assets/images/14.png",
+        "image": "/assets/images/test3/4.jpg",
         "options": [
-            "Give way sign",
-            "Yield sign",
-            "Stop sign",
-            "Both A and B"
-        ],
-        "correctIndex": 3,
-        "explanation": "This is a yield sign which is an upside-down triangle. It ensures that you have to wait until the traffic at intersection gets clear along with this if it's necessary than stop your vehicle."
-    },
-    {
-        "image": "/assets/images/15.png",
-        "options": [
-            "Keep right on multilane road, slower traffic",
-            "Keep left on multilane road, slower traffic",
-            "Keep your vehicle on right and let slower traffic pass from left",
-            "None of these"
+            "School bus stop ahead.",
+            "School zone ahead.",
+            "Public transit stops ahead.",
+            "Truck parking ahead."
         ],
         "correctIndex": 0,
-        "explanation": "On multi-lane road drivers must keep their vehicle on right lane as the traffic is slow there."
+        "explanation": "This sign warns the drivers that there is a hidden school bus stop ahead. You always have to stop or slow down your vehicle when you observe the flashing lights, children crossing the road."
     },
     {
-        "image": "/assets/images/16.png",
+        "image": "/assets/images/test3/5.jpg",
         "options": [
-            "Two way left turn lane only",
-            "One way left turn lane only",
-            "Both A and B",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is a dual left turn sign which means that in any of the direction there is only left turn."
-    },
-    {
-        "image": "/assets/images/17.png",
-        "options": [
-            "Do not turn left at red light",
-            "Do not turn right at red light",
-            "Do not go straight at red light",
-            "None of these"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign represents that drivers must not turn right when the traffic light is red at the intersection."
-    },
-    {
-        "image": "/assets/images/18.png",
-        "options": [
-            "Truck may enter from left side",
-            "Truck bridge entrance from right side",
-            "Fire truck entrance",
-            "None of the above"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign shows that the trucks are allowed to enter from the right side of the lane."
-    },
-    {
-        "image": "/assets/images/19.png",
-        "options": [
-            "Wild animals cross at this road",
-            "Deer crossing area",
-            "Both A and B",
-            "None of the above"
+            "Road ahead is unpaved.",
+            "There may be snow on the road ahead.",
+            "There may be water flowing on the road ahead.",
+            "None of the above."
         ],
         "correctIndex": 2,
-        "explanation": "This sign indicates warning regarding the regular crossing of lanes by deer."
+        "explanation": "Proceed with cautious as the water flowing over the road."
     },
     {
-        "image": "/assets/images/20.png",
+        "image": "/assets/images/test3/6.jpg",
         "options": [
-            "Survey ahead",
-            "Road work temporary sign",
-            "Cement ahead",
-            "Road closed ahead"
+            "Watch out for falling rocks, drive carefully.",
+            "Be prepared for earthquake.",
+            "Road ahead is clocked due to rocks.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "This is a rock falling zone. whenever individuals pass by this zone, they must prepare themselves to avoid the collision."
+    },
+    {
+        "image": "/assets/images/test3/7.jpg",
+        "options": [
+            "Drive on either left lane or right lane.",
+            "Share the road with oncoming traffic.",
+            "Danger zone, drive carefully.",
+            "Drive on left lane."
         ],
         "correctIndex": 1,
-        "explanation": "It indicates that some work is going on road for short duration."
+        "explanation": "This lane is shared by both directions traffic."
+    },
+    {
+        "image": "/assets/images/test3/8.jpg",
+        "options": [
+            "Cyclist is turning left.",
+            "Cyclist is turning Right.",
+            "Cyclist is turning slowing or stopping.",
+            "None of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "The sign which shows the left hand in the upward direction it means that the cyclist wants to turn right."
+    },
+    {
+        "image": "/assets/images/test3/9.jpg",
+        "options": [
+            "Cyclist is turning slowing or stopping.",
+            "Cyclist is turning Right.",
+            "Cyclist is turning left.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "When cyclist wants to slow down or stop then their left hand will be in the lower direction."
+    },
+    {
+        "image": "/assets/images/test3/10.jpg",
+        "options": [
+            "Cyclist is turning left.",
+            "Cyclist is turning. slowing or stopping",
+            "Cyclist is turning Right.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "When the left hand is straight it represents that the cyclist wants to turn left."
+    },
+    {
+        "image": "/assets/images/test3/11.jpg",
+        "options": [
+            "Mountains ahead.",
+            "Pavement ahead has sharp edges.",
+            "Uneven pavement or bump in the road.",
+            "None of the above."
+        ],
+        "correctIndex": 2,
+        "explanation": "The road is bumpy ahead."
+    },
+    {
+        "image": "/assets/images/test3/12.jpg",
+        "options": [
+            "Current highway speed limit is 50km/h.",
+            "Speed limit changes ahead.",
+            "Maximum vehicle speed at intersection.",
+            "Speed limit for previous highway was 50km/h."
+        ],
+        "correctIndex": 1,
+        "explanation": "This sign means that the current limit of the speed will change to 50km/h."
+    },
+    {
+        "image": "/assets/images/test3/13.jpg",
+        "options": [
+            "Railway crossing ahead, drive carefully and watch out for train.",
+            "Intersection ahead.",
+            "Stop sign ahead.",
+            "Left or right turn not allowed."
+        ],
+        "correctIndex": 0,
+        "explanation": "This is a warning sign which aware you regarding the railway crossing ahead. Always look for train and proceed carefully."
+    },
+    {
+        "image": "/assets/images/test3/14.jpg",
+        "options": [
+            "Parking in the direction of the arrow.",
+            "Sharp turn or bend in the road.",
+            "Do not turn right.",
+            "Right turn only."
+        ],
+        "correctIndex": 1,
+        "explanation": "The sign which has yellow and black checkboxes border and arrow facing towards right indicates that there is a sharp turn on the upcoming road."
+    },
+    {
+        "image": "/assets/images/test3/15.jpg",
+        "options": [
+            "Left lane ends.",
+            "Narrow bridge ahead.",
+            "Keep right, continue driving on unpaved path.",
+            "Right lane ends."
+        ],
+        "correctIndex": 3,
+        "explanation": "This sign means that right lane ends ahead and drivers must merge their vehicle with the traffic of left lane."
+    },
+    {
+        "image": "/assets/images/test3/16.jpg",
+        "options": [
+            "Maximum speed on the road is 50km/h.",
+            "Maximum safe speed on a ramp.",
+            "You should exceed speed limit even if there is traffic.",
+            "Both A and C."
+        ],
+        "correctIndex": 1,
+        "explanation": "This sign warns the drivers that the maximum speed limit on ramp is 50km/h."
+    },
+    {
+        "image": "/assets/images/test3/17.jpg",
+        "options": [
+            "Divided highway ends, keep left.",
+            "Divided highway ends, keep right.",
+            "Drive in the middle over the traffic island.",
+            "Either A or C."
+        ],
+        "correctIndex": 1,
+        "explanation": "This sign indicates that the highway which is divided into two comes to an end. Make sure to keep your vehicle at the right side."
+    },
+    {
+        "image": "/assets/images/test3/18.jpg",
+        "options": [
+            "Restroom at the sideroad.",
+            "Disabled or wheel chair parking only.",
+            "Parking zone.",
+            "Stop sign ahead."
+        ],
+        "correctIndex": 1,
+        "explanation": "This is a parking zone only for the people who are on wheel chair or disabled."
+    },
+    {
+        "image": "/assets/images/test3/19.jpg",
+        "options": [
+            "Intersection ahead.",
+            "Traffic island ahead sign.",
+            "Hazard sign.",
+            "Speed up vehicle sign."
+        ],
+        "correctIndex": 2,
+        "explanation": "Black and yellow downward strip represents the hazard sign. Downward line of strips shows you the directions to safely pass."
+    },
+    {
+        "image": "/assets/images/test3/20.jpg",
+        "options": [
+            "2 passengers in car may use this lane.",
+            "3 passengers in car may use this lane.",
+            "4 passengers in car may use this lane.",
+            "Both B and C."
+        ],
+        "correctIndex": 3,
+        "explanation": "Only 3 or more passengers are allowed on this road."
     }
 ]

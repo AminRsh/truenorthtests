@@ -1,222 +1,222 @@
 [
     {
-        "image": "/assets/images/1.png",
+        "image": "/assets/images/test2/1.jpg",
         "options": [
-            "Stop sign",
-            "Stop if road is crowded",
-            "Stop sign ahead",
-            "None of the above"
+            "Stop sign.",
+            "Yield sign.",
+            "Do not enter sign.",
+            "No parking."
         ],
         "correctIndex": 2,
-        "explanation": "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
+        "explanation": "Whenever you see this sign, it means that you are not allowed to enter that area."
     },
     {
-        "image": "/assets/images/2.png",
+        "image": "/assets/images/test2/2.jpg",
         "options": [
-            "Wiggly road",
-            "Winding road",
-            "Sharp road",
-            "Bending road"
-        ],
-        "correctIndex": 1,
-        "explanation": "Winding road sign warns the drivers to slow their vehicles as there are many curves on the road. Moreover, Winding Road refers to the frequent turns on the path in various directions."
-    },
-    {
-        "image": "/assets/images/3.png",
-        "options": [
-            "No passing allowed",
-            "braking is not allowed",
-            "No more than 2 cars on road",
-            "None of these"
+            "Individuals having disabled parking permit can park here.",
+            "No parking.",
+            "Disabled person cannot park here.",
+            "All of the above."
         ],
         "correctIndex": 0,
-        "explanation": "It's not safe to pass the vehicle on the road as the road is not broad enough, there may be curvy roads ahead or lack of visibility."
+        "explanation": "It shows that an individual who is disabled and also have parking permit for that only they can park their vehicle in the parking lot others are not allowed to park their vehicles."
     },
     {
-        "image": "/assets/images/4.png",
+        "image": "/assets/images/test2/3.jpg",
         "options": [
-            "There is barrier in front",
-            "Keep right, road splits in two",
-            "Keep left, road splits in two",
-            "Stop at barrier"
+            "Do not go straight.",
+            "No driving through intersection.",
+            "Dead end.",
+            "All of the above."
         ],
         "correctIndex": 1,
-        "explanation": "Stay at the right side of traffic island."
+        "explanation": "Drivers are not allowed to drive through intersection."
     },
     {
-        "image": "/assets/images/5.png",
+        "image": "/assets/images/test2/4.jpg",
         "options": [
-            "Intersection ahead",
-            "Plus-road ahead",
-            "Left for right turn before straight turn",
-            "None of the above"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is an intersection road ahead sign which warns the drivers to slow down their vehicle as two or more lanes are connecting ahead."
-    },
-    {
-        "image": "/assets/images/6.png",
-        "options": [
-            "Narrow bridge ahead",
-            "Road's merging",
-            "Pavement narrows ahead",
-            "None of the above"
-        ],
-        "correctIndex": 2,
-        "explanation": "This sign represents that the ahead road is not broad."
-    },
-    {
-        "image": "/assets/images/7.png",
-        "options": [
-            "Left turn prohibited",
-            "No U-turn",
-            "No reversing",
-            "Both A and B"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign means taking turn in the opposite direction is prohibited."
-    },
-    {
-        "image": "/assets/images/8.png",
-        "options": [
-            "Pedestrian cross-over",
-            "Senior citizen crossing",
-            "School zone",
-            "Playground area ahead"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a School Zone ahead sign which warns you to slow down your vehicle during the school timings."
-    },
-    {
-        "image": "/assets/images/9.png",
-        "options": [
-            "Snowing ahead",
-            "Drive carefully in summers",
-            "Pavement slippery when wet",
-            "None of these"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a warning sign which explains that driver have to proceed carefully as the road is slippery when wet and the reason for this maybe snow, rain or dew."
-    },
-    {
-        "image": "/assets/images/10.png",
-        "options": [
-            "Traffic sign ahead",
-            "Intersection ahead",
-            "Stop at traffic intersection",
-            "No need to stop at intersection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign represents that there is a traffic sign ahead and drivers have to slow down their vehicle or come to a complete stop when the lights turn red."
-    },
-    {
-        "image": "/assets/images/11.png",
-        "options": [
-            "Do not stop between in the area between two of these signs",
-            "No stopping",
-            "Do not enter",
-            "Stop for inspection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign means that parking in a specific area which is in between the signs and parking the vehicle at any point of time is prohibited as it's not safe for the drivers to park their vehicle at such warning spots."
-    },
-    {
-        "image": "/assets/images/12.png",
-        "options": [
-            "No right turn at intersection",
-            "No left turn at intersection",
-            "Do not turn at intersection",
-            "No stopping on left side"
-        ],
-        "correctIndex": 1,
-        "explanation": "At intersection its prohibited to take left turn."
-    },
-    {
-        "image": "/assets/images/13.png",
-        "options": [
-            "Stop sign ahead",
-            "Yield sign",
-            "Give way sign",
-            "Stop sign"
+            "Road work ahead.",
+            "Slow moving vehicle.",
+            "Faster than 40km/h must put this sign on their vehicle.",
+            "Both B and C."
         ],
         "correctIndex": 3,
-        "explanation": "It's a regulatory sign which means this sign gives you some kind of direction and its mandatory to obey it. Thus, whenever you see this sign, you have to come to a full stop."
+        "explanation": "This is an orange triangle with red boundaries which should be there on vehicles whose speed limit is less than 40 km/h."
     },
     {
-        "image": "/assets/images/14.png",
+        "image": "/assets/images/test2/5.jpg",
         "options": [
-            "Give way sign",
-            "Yield sign",
-            "Stop sign",
-            "Both A and B"
-        ],
-        "correctIndex": 3,
-        "explanation": "This is a yield sign which is an upside-down triangle. It ensures that you have to wait until the traffic at intersection gets clear along with this if it's necessary than stop your vehicle."
-    },
-    {
-        "image": "/assets/images/15.png",
-        "options": [
-            "Keep right on multilane road, slower traffic",
-            "Keep left on multilane road, slower traffic",
-            "Keep your vehicle on right and let slower traffic pass from left",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "On multi-lane road drivers must keep their vehicle on right lane as the traffic is slow there."
-    },
-    {
-        "image": "/assets/images/16.png",
-        "options": [
-            "Two way left turn lane only",
-            "One way left turn lane only",
-            "Both A and B",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is a dual left turn sign which means that in any of the direction there is only left turn."
-    },
-    {
-        "image": "/assets/images/17.png",
-        "options": [
-            "Do not turn left at red light",
-            "Do not turn right at red light",
-            "Do not go straight at red light",
-            "None of these"
+            "Drive slow because of nearby town.",
+            "Destination board.",
+            "Both A and B.",
+            "None of the above."
         ],
         "correctIndex": 1,
-        "explanation": "This sign represents that drivers must not turn right when the traffic light is red at the intersection."
+        "explanation": "This is a destination board which displays the directions of the places which are nearby such as towns, and cities."
     },
     {
-        "image": "/assets/images/18.png",
+        "image": "/assets/images/test2/6.jpg",
         "options": [
-            "Truck may enter from left side",
-            "Truck bridge entrance from right side",
-            "Fire truck entrance",
-            "None of the above"
+            "Avoid obstacle on the left while driving.",
+            "Keep right to the traffic island.",
+            "Keep left to the traffic island.",
+            "All of the above."
         ],
         "correctIndex": 1,
-        "explanation": "This sign shows that the trucks are allowed to enter from the right side of the lane."
+        "explanation": "Drivers must keep their vehicle to the right side of the traffic island."
     },
     {
-        "image": "/assets/images/19.png",
+        "image": "/assets/images/test2/7.jpg",
         "options": [
-            "Wild animals cross at this road",
-            "Deer crossing area",
-            "Both A and B",
-            "None of the above"
+            "Wide road ahead.",
+            "Narrow road ahead.",
+            "Narrow Bridge ahead.",
+            "All of the above."
         ],
         "correctIndex": 2,
-        "explanation": "This sign indicates warning regarding the regular crossing of lanes by deer."
+        "explanation": "Drivers must proceed carefully as the bridge ahead is not wide."
     },
     {
-        "image": "/assets/images/20.png",
+        "image": "/assets/images/test2/8.jpg",
         "options": [
-            "Survey ahead",
-            "Road work temporary sign",
-            "Cement ahead",
-            "Road closed ahead"
+            "Diamond lane.",
+            "Super lane.",
+            "Vip lane.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "In this only those vehicles are allowed which are there on the sign board and at any point of time."
+    },
+    {
+        "image": "/assets/images/test2/9.jpg",
+        "options": [
+            "Bicycles allowed.",
+            "Bicycles slow down.",
+            "No bicycles allowed.",
+            "Bicycle parking."
+        ],
+        "correctIndex": 2,
+        "explanation": "This sign represents that the bicycles in a particular zone or lane are not allowed."
+    },
+    {
+        "image": "/assets/images/test2/10.jpg",
+        "options": [
+            "Parking at posted times only.",
+            "No parking at posted times.",
+            "Both A and B.",
+            "None of these."
+        ],
+        "correctIndex": 0,
+        "explanation": "Parking is allowed as per the mentioned time, days and hours on the sign board."
+    },
+    {
+        "image": "/assets/images/test2/11.jpg",
+        "options": [
+            "Only snowmobiles are allowed to use this road.",
+            "snowmobiles may use this road.",
+            "Cars not allowed.",
+            "All of the above."
         ],
         "correctIndex": 1,
-        "explanation": "It indicates that some work is going on road for short duration."
+        "explanation": "The lane can be utilized by the snowmobiles."
+    },
+    {
+        "image": "/assets/images/test2/12.jpg",
+        "options": [
+            "Bicycle route.",
+            "Bicycle parking.",
+            "Only bicycle allowed.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "Bicyclists can use this road but make sure to look for the cyclists first and then drive cautiously."
+    },
+    {
+        "image": "/assets/images/test2/13.jpg",
+        "options": [
+            "Truck parking on slope.",
+            "Steep hill ahead.",
+            "Use high gear for engine braking.",
+            "Both A and B."
+        ],
+        "correctIndex": 1,
+        "explanation": "This sign warns the drivers not to speed up their vehicle as it's a steep hill. Proceed with caution and also don't forget to use low gears on such lanes."
+    },
+    {
+        "image": "/assets/images/test2/14.jpg",
+        "options": [
+            "No bicycle allowed.",
+            "Only bicycle allowed.",
+            "Bicycle crossing.",
+            "None of the above."
+        ],
+        "correctIndex": 2,
+        "explanation": "The sign represents the bicycle crossing the lane. Proceed carefully and always look for the bicyclist first."
+    },
+    {
+        "image": "/assets/images/test2/15.jpg",
+        "options": [
+            "Rainy road ahead.",
+            "Paved surface ends.",
+            "Snowy road ahead.",
+            "Both A and B."
+        ],
+        "correctIndex": 1,
+        "explanation": "Proceed with caution as the paved surface ends ahead."
+    },
+    {
+        "image": "/assets/images/test2/16.jpg",
+        "options": [
+            "Roads ahead are merging ahead.",
+            "All lanes are merging ahead.",
+            "U-turn ahead.",
+            "Right bend ahead."
+        ],
+        "correctIndex": 0,
+        "explanation": "Both the lanes' drives must drive carefully as the roads will merge into one."
+    },
+    {
+        "image": "/assets/images/test2/17.jpg",
+        "options": [
+            "No clear view for drivers at the sideroad, drive carefully.",
+            "Watch out for hidden pedestrians.",
+            "Right turn ahead.",
+            "Go straight sign."
+        ],
+        "correctIndex": 0,
+        "explanation": "This is a warning sign which shows that the visibility is not clear for those individuals who are on the side lane."
+    },
+    {
+        "image": "/assets/images/test2/18.jpg",
+        "options": [
+            "Road merging ahead.",
+            "Road branches off ahead.",
+            "Road combines ahead.",
+            "Right turn ahead."
+        ],
+        "correctIndex": 1,
+        "explanation": "Branching road shows that the single road will split into two or more lanes."
+    },
+    {
+        "image": "/assets/images/test2/19.jpg",
+        "options": [
+            "Road split ahead.",
+            "Stay in the right lane, only pass when passing lanes are present.",
+            "Road exit ahead.",
+            "None of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "Drivers must keep their vehicle on the right lane. They can pass when passing lanes are there."
+    },
+    {
+        "image": "/assets/images/test2/20.jpg",
+        "options": [
+            "Bicycle lane only.",
+            "Bicycle not allowed.",
+            "Bicycle parking only.",
+            "Bicycle slow down sign."
+        ],
+        "correctIndex": 0,
+        "explanation": "This road is only for the bicycles."
     }
 ]

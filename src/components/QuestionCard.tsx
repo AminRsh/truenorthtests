@@ -95,9 +95,9 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
 
     const passed = score >= 16;
 
-    const getImagePlaceholder = (index: number) => {
-        return `/assets/images/${index + 1}.png`;
-    };
+    // const getImagePlaceholder = (index: number) => {
+    //     return `/assets/images/${index + 1}.png`;
+    // };
 
     return (
         <div className="max-w-4xl mx-auto py-8 px-6 bg-white rounded-2xl shadow-lg relative">
@@ -121,7 +121,6 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                 </div>
             ) : (
                 <div ref={questionRef} className="flex gap-6 flex-col md:flex-row">
-                    {/* Options */}
                     <div className="flex-1 space-y-4">
                         <h2 className="text-xl font-bold">What is the purpose of this traffic sign?</h2>
                         <ul className="space-y-2">
@@ -129,7 +128,7 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                                 <li
                                     key={index}
                                     onClick={() => handleOptionClick(index)}
-                                    className={`cursor-pointer p-3 rounded-xl border transition-colors duration-100 
+                                    className={`cursor-pointer p-3 rounded-xl border transition-colors duration-100 text-black
                                         ${selectedOption === index ? 'bg-blue-100 border-blue-500' : 'bg-gray-50 border-gray-300'}
                                         ${isSubmitted && index === question.correctIndex ? 'border-green-500 bg-green-100' : ''}
                                         ${isSubmitted && index === selectedOption && index !== question.correctIndex ? 'border-red-500 bg-red-100' : ''}`}
@@ -188,7 +187,8 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
 
                     <div className="flex items-center justify-center ">
                             <Image
-                                src={getImagePlaceholder(currentIndex)}
+                                // src={getImagePlaceholder(currentIndex)}
+                                src={question.image}
                                 alt="Traffic Sign"
                                 className="object-cover rounded-lg shadow-2xl"
                                 width={400}
