@@ -1,6 +1,7 @@
 [
     {
         "image": "/assets/images/test2/1.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Stop sign.",
             "Yield sign.",
@@ -12,6 +13,7 @@
     },
     {
         "image": "/assets/images/test2/2.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Individuals having disabled parking permit can park here.",
             "No parking.",
@@ -23,6 +25,7 @@
     },
     {
         "image": "/assets/images/test2/3.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Do not go straight.",
             "No driving through intersection.",
@@ -34,6 +37,7 @@
     },
     {
         "image": "/assets/images/test2/4.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Road work ahead.",
             "Slow moving vehicle.",
@@ -45,6 +49,7 @@
     },
     {
         "image": "/assets/images/test2/5.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Drive slow because of nearby town.",
             "Destination board.",
@@ -56,6 +61,7 @@
     },
     {
         "image": "/assets/images/test2/6.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Avoid obstacle on the left while driving.",
             "Keep right to the traffic island.",
@@ -67,6 +73,7 @@
     },
     {
         "image": "/assets/images/test2/7.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Wide road ahead.",
             "Narrow road ahead.",
@@ -78,6 +85,7 @@
     },
     {
         "image": "/assets/images/test2/8.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Diamond lane.",
             "Super lane.",
@@ -89,6 +97,7 @@
     },
     {
         "image": "/assets/images/test2/9.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Bicycles allowed.",
             "Bicycles slow down.",
@@ -100,6 +109,7 @@
     },
     {
         "image": "/assets/images/test2/10.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Parking at posted times only.",
             "No parking at posted times.",
@@ -111,6 +121,7 @@
     },
     {
         "image": "/assets/images/test2/11.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Only snowmobiles are allowed to use this road.",
             "snowmobiles may use this road.",
@@ -122,6 +133,7 @@
     },
     {
         "image": "/assets/images/test2/12.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Bicycle route.",
             "Bicycle parking.",
@@ -133,6 +145,7 @@
     },
     {
         "image": "/assets/images/test2/13.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Truck parking on slope.",
             "Steep hill ahead.",
@@ -144,6 +157,7 @@
     },
     {
         "image": "/assets/images/test2/14.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "No bicycle allowed.",
             "Only bicycle allowed.",
@@ -155,6 +169,7 @@
     },
     {
         "image": "/assets/images/test2/15.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Rainy road ahead.",
             "Paved surface ends.",
@@ -166,6 +181,7 @@
     },
     {
         "image": "/assets/images/test2/16.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Roads ahead are merging ahead.",
             "All lanes are merging ahead.",
@@ -177,6 +193,7 @@
     },
     {
         "image": "/assets/images/test2/17.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "No clear view for drivers at the sideroad, drive carefully.",
             "Watch out for hidden pedestrians.",
@@ -188,6 +205,7 @@
     },
     {
         "image": "/assets/images/test2/18.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Road merging ahead.",
             "Road branches off ahead.",
@@ -199,6 +217,7 @@
     },
     {
         "image": "/assets/images/test2/19.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Road split ahead.",
             "Stay in the right lane, only pass when passing lanes are present.",
@@ -210,6 +229,7 @@
     },
     {
         "image": "/assets/images/test2/20.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Bicycle lane only.",
             "Bicycle not allowed.",

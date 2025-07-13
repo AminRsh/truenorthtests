@@ -1,6 +1,7 @@
 [
     {
-        "image": "/assets/images/test1/1.png",
+        "image": "/assets/images/test1/1.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Stop sign",
             "Stop if road is crowded",
@@ -11,7 +12,8 @@
         "explanation": "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
     },
     {
-        "image": "/assets/images/test1/2.png",
+        "image": "/assets/images/test1/2.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Wiggly road",
             "Winding road",
@@ -22,7 +24,8 @@
         "explanation": "Winding road sign warns the drivers to slow their vehicles as there are many curves on the road. Moreover, Winding Road refers to the frequent turns on the path in various directions."
     },
     {
-        "image": "/assets/images/test1/3.png",
+        "image": "/assets/images/test1/3.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "No passing allowed",
             "braking is not allowed",
@@ -33,7 +36,8 @@
         "explanation": "It's not safe to pass the vehicle on the road as the road is not broad enough, there may be curvy roads ahead or lack of visibility."
     },
     {
-        "image": "/assets/images/test1/4.png",
+        "image": "/assets/images/test1/4.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "There is barrier in front",
             "Keep right, road splits in two",
@@ -44,7 +48,8 @@
         "explanation": "Stay at the right side of traffic island."
     },
     {
-        "image": "/assets/images/test1/5.png",
+        "image": "/assets/images/test1/5.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Intersection ahead",
             "Plus-road ahead",
@@ -55,7 +60,8 @@
         "explanation": "This is an intersection road ahead sign which warns the drivers to slow down their vehicle as two or more lanes are connecting ahead."
     },
     {
-        "image": "/assets/images/test1/6.png",
+        "image": "/assets/images/test1/6.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Narrow bridge ahead",
             "Road's merging",
@@ -66,7 +72,8 @@
         "explanation": "This sign represents that the ahead road is not broad."
     },
     {
-        "image": "/assets/images/test1/7.png",
+        "image": "/assets/images/test1/7.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Left turn prohibited",
             "No U-turn",
@@ -77,7 +84,8 @@
         "explanation": "This sign means taking turn in the opposite direction is prohibited."
     },
     {
-        "image": "/assets/images/test1/8.png",
+        "image": "/assets/images/test1/8.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Pedestrian cross-over",
             "Senior citizen crossing",
@@ -88,7 +96,8 @@
         "explanation": "This is a School Zone ahead sign which warns you to slow down your vehicle during the school timings."
     },
     {
-        "image": "/assets/images/test1/9.png",
+        "image": "/assets/images/test1/9.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Snowing ahead",
             "Drive carefully in summers",
@@ -99,7 +108,8 @@
         "explanation": "This is a warning sign which explains that driver have to proceed carefully as the road is slippery when wet and the reason for this maybe snow, rain or dew."
     },
     {
-        "image": "/assets/images/test1/10.png",
+        "image": "/assets/images/test1/10.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Traffic sign ahead",
             "Intersection ahead",
@@ -110,7 +120,8 @@
         "explanation": "This sign represents that there is a traffic sign ahead and drivers have to slow down their vehicle or come to a complete stop when the lights turn red."
     },
     {
-        "image": "/assets/images/test1/11.png",
+        "image": "/assets/images/test1/11.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Do not stop between in the area between two of these signs",
             "No stopping",
@@ -121,7 +132,8 @@
         "explanation": "This sign means that parking in a specific area which is in between the signs and parking the vehicle at any point of time is prohibited as it's not safe for the drivers to park their vehicle at such warning spots."
     },
     {
-        "image": "/assets/images/test1/12.png",
+        "image": "/assets/images/test1/12.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "No right turn at intersection",
             "No left turn at intersection",
@@ -132,7 +144,8 @@
         "explanation": "At intersection its prohibited to take left turn."
     },
     {
-        "image": "/assets/images/test1/13.png",
+        "image": "/assets/images/test1/13.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Stop sign ahead",
             "Yield sign",
@@ -143,7 +156,8 @@
         "explanation": "It's a regulatory sign which means this sign gives you some kind of direction and its mandatory to obey it. Thus, whenever you see this sign, you have to come to a full stop."
     },
     {
-        "image": "/assets/images/test1/14.png",
+        "image": "/assets/images/test1/14.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Give way sign",
             "Yield sign",
@@ -154,7 +168,8 @@
         "explanation": "This is a yield sign which is an upside-down triangle. It ensures that you have to wait until the traffic at intersection gets clear along with this if it's necessary than stop your vehicle."
     },
     {
-        "image": "/assets/images/test1/15.png",
+        "image": "/assets/images/test1/15.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Keep right on multilane road, slower traffic",
             "Keep left on multilane road, slower traffic",
@@ -165,7 +180,8 @@
         "explanation": "On multi-lane road drivers must keep their vehicle on right lane as the traffic is slow there."
     },
     {
-        "image": "/assets/images/test1/16.png",
+        "image": "/assets/images/test1/16.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Two way left turn lane only",
             "One way left turn lane only",
@@ -176,7 +192,8 @@
         "explanation": "This is a dual left turn sign which means that in any of the direction there is only left turn."
     },
     {
-        "image": "/assets/images/test1/17.png",
+        "image": "/assets/images/test1/17.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Do not turn left at red light",
             "Do not turn right at red light",
@@ -187,7 +204,8 @@
         "explanation": "This sign represents that drivers must not turn right when the traffic light is red at the intersection."
     },
     {
-        "image": "/assets/images/test1/18.png",
+        "image": "/assets/images/test1/18.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Truck may enter from left side",
             "Truck bridge entrance from right side",
@@ -198,7 +216,8 @@
         "explanation": "This sign shows that the trucks are allowed to enter from the right side of the lane."
     },
     {
-        "image": "/assets/images/test1/19.png",
+        "image": "/assets/images/test1/19.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Wild animals cross at this road",
             "Deer crossing area",
@@ -209,7 +228,8 @@
         "explanation": "This sign indicates warning regarding the regular crossing of lanes by deer."
     },
     {
-        "image": "/assets/images/test1/20.png",
+        "image": "/assets/images/test1/20.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Survey ahead",
             "Road work temporary sign",

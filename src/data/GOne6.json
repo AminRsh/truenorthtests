@@ -1,222 +1,242 @@
 [
     {
-        "image": "/assets/images/1.png",
+        "image": null,
+        "question": "For whom the driver responsible if passengers are not wearing seatbelts?",
         "options": [
-            "Stop sign",
-            "Stop if road is crowded",
-            "Stop sign ahead",
-            "None of the above"
+            "For the passenger seated at the front.",
+            "For the passenger seated at the back.",
+            "For passengers aged 5 to 16.",
+            "For passengers aged 5 to 12."
         ],
         "correctIndex": 2,
-        "explanation": "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
+        "explanation": "Driver is accountable for not wearing the seatbelts for those passengers whose age is between 5 to 16 years."
     },
     {
-        "image": "/assets/images/2.png",
+        "image": null,
+        "question": "What does a red light with a green arrow mean?",
         "options": [
-            "Wiggly road",
-            "Winding road",
-            "Sharp road",
-            "Bending road"
-        ],
-        "correctIndex": 1,
-        "explanation": "Winding road sign warns the drivers to slow their vehicles as there are many curves on the road. Moreover, Winding Road refers to the frequent turns on the path in various directions."
-    },
-    {
-        "image": "/assets/images/3.png",
-        "options": [
-            "No passing allowed",
-            "braking is not allowed",
-            "No more than 2 cars on road",
-            "None of these"
+            "Proceed carefully in direction of the arrow and watch out for pedestrians.",
+            "Stop your vehicle.",
+            "Green arrow is for pedestrians.",
+            "None of the above."
         ],
         "correctIndex": 0,
-        "explanation": "It's not safe to pass the vehicle on the road as the road is not broad enough, there may be curvy roads ahead or lack of visibility."
+        "explanation": "Red light with green arrow means that the driver can cautiously proceed in the direction of arrow and also look for the pedestrians."
     },
     {
-        "image": "/assets/images/4.png",
+        "image": null,
+        "question": "According to the law, green flashing signal represents:",
         "options": [
-            "There is barrier in front",
-            "Keep right, road splits in two",
-            "Keep left, road splits in two",
-            "Stop at barrier"
-        ],
-        "correctIndex": 1,
-        "explanation": "Stay at the right side of traffic island."
-    },
-    {
-        "image": "/assets/images/5.png",
-        "options": [
-            "Intersection ahead",
-            "Plus-road ahead",
-            "Left for right turn before straight turn",
-            "None of the above"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is an intersection road ahead sign which warns the drivers to slow down their vehicle as two or more lanes are connecting ahead."
-    },
-    {
-        "image": "/assets/images/6.png",
-        "options": [
-            "Narrow bridge ahead",
-            "Road's merging",
-            "Pavement narrows ahead",
-            "None of the above"
-        ],
-        "correctIndex": 2,
-        "explanation": "This sign represents that the ahead road is not broad."
-    },
-    {
-        "image": "/assets/images/7.png",
-        "options": [
-            "Left turn prohibited",
-            "No U-turn",
-            "No reversing",
-            "Both A and B"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign means taking turn in the opposite direction is prohibited."
-    },
-    {
-        "image": "/assets/images/8.png",
-        "options": [
-            "Pedestrian cross-over",
-            "Senior citizen crossing",
-            "School zone",
-            "Playground area ahead"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a School Zone ahead sign which warns you to slow down your vehicle during the school timings."
-    },
-    {
-        "image": "/assets/images/9.png",
-        "options": [
-            "Snowing ahead",
-            "Drive carefully in summers",
-            "Pavement slippery when wet",
-            "None of these"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a warning sign which explains that driver have to proceed carefully as the road is slippery when wet and the reason for this maybe snow, rain or dew."
-    },
-    {
-        "image": "/assets/images/10.png",
-        "options": [
-            "Traffic sign ahead",
-            "Intersection ahead",
-            "Stop at traffic intersection",
-            "No need to stop at intersection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign represents that there is a traffic sign ahead and drivers have to slow down their vehicle or come to a complete stop when the lights turn red."
-    },
-    {
-        "image": "/assets/images/11.png",
-        "options": [
-            "Do not stop between in the area between two of these signs",
-            "No stopping",
-            "Do not enter",
-            "Stop for inspection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign means that parking in a specific area which is in between the signs and parking the vehicle at any point of time is prohibited as it's not safe for the drivers to park their vehicle at such warning spots."
-    },
-    {
-        "image": "/assets/images/12.png",
-        "options": [
-            "No right turn at intersection",
-            "No left turn at intersection",
-            "Do not turn at intersection",
-            "No stopping on left side"
-        ],
-        "correctIndex": 1,
-        "explanation": "At intersection its prohibited to take left turn."
-    },
-    {
-        "image": "/assets/images/13.png",
-        "options": [
-            "Stop sign ahead",
-            "Yield sign",
-            "Give way sign",
-            "Stop sign"
+            "You may turn left.",
+            "You may turn right.",
+            "You may go straight.",
+            "All of the above."
         ],
         "correctIndex": 3,
-        "explanation": "It's a regulatory sign which means this sign gives you some kind of direction and its mandatory to obey it. Thus, whenever you see this sign, you have to come to a full stop."
+        "explanation": "Green flashing signal represents that you are allowed to move in any of the direction that is straight, right or left."
     },
     {
-        "image": "/assets/images/14.png",
+        "image": null,
+        "question": "When should you be very careful while making a U-turn?",
         "options": [
-            "Give way sign",
-            "Yield sign",
-            "Stop sign",
-            "Both A and B"
+            "From 0m to 150m of a tunnel if view is not clear.",
+            "30m from a rail track.",
+            "None of the above.",
+            "Both A and B."
         ],
         "correctIndex": 3,
-        "explanation": "This is a yield sign which is an upside-down triangle. It ensures that you have to wait until the traffic at intersection gets clear along with this if it's necessary than stop your vehicle."
+        "explanation": "Drivers need to be alert while making U-Turn when they are 30meteres from the railway crossing as well as when the view of tunnel is not clear."
     },
     {
-        "image": "/assets/images/15.png",
+        "image": null,
+        "question": "What do you need according to the law if you are involved in an accident?",
         "options": [
-            "Keep right on multilane road, slower traffic",
-            "Keep left on multilane road, slower traffic",
-            "Keep your vehicle on right and let slower traffic pass from left",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "On multi-lane road drivers must keep their vehicle on right lane as the traffic is slow there."
-    },
-    {
-        "image": "/assets/images/16.png",
-        "options": [
-            "Two way left turn lane only",
-            "One way left turn lane only",
-            "Both A and B",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is a dual left turn sign which means that in any of the direction there is only left turn."
-    },
-    {
-        "image": "/assets/images/17.png",
-        "options": [
-            "Do not turn left at red light",
-            "Do not turn right at red light",
-            "Do not go straight at red light",
-            "None of these"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign represents that drivers must not turn right when the traffic light is red at the intersection."
-    },
-    {
-        "image": "/assets/images/18.png",
-        "options": [
-            "Truck may enter from left side",
-            "Truck bridge entrance from right side",
-            "Fire truck entrance",
-            "None of the above"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign shows that the trucks are allowed to enter from the right side of the lane."
-    },
-    {
-        "image": "/assets/images/19.png",
-        "options": [
-            "Wild animals cross at this road",
-            "Deer crossing area",
-            "Both A and B",
-            "None of the above"
+            "Contact your car insurance provider only.",
+            "Report to Police within 1 week.",
+            "Report to the police immediately.",
+            "None of the above."
         ],
         "correctIndex": 2,
-        "explanation": "This sign indicates warning regarding the regular crossing of lanes by deer."
+        "explanation": "If any person is involved in the accident thein it's their duty to report the incident to the police immediately."
     },
     {
-        "image": "/assets/images/20.png",
+        "image": null,
+        "question": "You need to report to MTO if you change your address within:",
         "options": [
-            "Survey ahead",
-            "Road work temporary sign",
-            "Cement ahead",
-            "Road closed ahead"
+            "48 hours.",
+            "6 days.",
+            "2 weeks.",
+            "Immediately."
         ],
         "correctIndex": 1,
-        "explanation": "It indicates that some work is going on road for short duration."
+        "explanation": "According to the law, if you change your address then you have to update this information to the Ministry of Transportation within 6 days after moving to the other place."
+    },
+    {
+        "image": null,
+        "question": "Suppose you reach an intersection and red light is flashing, what does it mean?",
+        "options": [
+            "Come to a complete stop, proceed when it is safe.",
+            "Give way.",
+            "Signals are not working correctly.",
+            "Continue at normal speed and pass."
+        ],
+        "correctIndex": 0,
+        "explanation": "In such scenario you have to stop completely or you can proceed if it's safe to do so."
+    },
+    {
+        "image": null,
+        "question": "What is the maximum speed limit on a highway if there is no speed sign?",
+        "options": [
+            "80 km/h.",
+            "100 km/h.",
+            "120 km/h.",
+            "90 km/h."
+        ],
+        "correctIndex": 0,
+        "explanation": "If there is no sign board on the highway regarding the speed, you can drive at maximum speed limit on highway which is 80km/h."
+    },
+    {
+        "image": null,
+        "question": "How should you enter a freeway?",
+        "options": [
+            "Stop and safely merge with traffic when possible.",
+            "Slow down and safely merge with traffic.",
+            "Accelerate to the speed to the freeway and safely merge with traffic.",
+            "None of the above."
+        ],
+        "correctIndex": 2,
+        "explanation": "The right method to follow in order to enter the freeway is to increase the speed of you vehicle and merge carefully with the other traffic."
+    },
+    {
+        "image": null,
+        "question": "What should you do if your tire punctures while driving?",
+        "options": [
+            "Stop accelerating.",
+            "Hold steering firmly and keep the vehicle under control.",
+            "Maintain same speed.",
+            "Both A and B."
+        ],
+        "correctIndex": 3,
+        "explanation": "Firstly, you have to stop your vehicle immediately at a safe place. Secondly, you have to firmly hold the steering wheel and make sure that the vehicle is under the control."
+    },
+    {
+        "image": null,
+        "question": "If you drive under the influence of alcohol, for how long your license will be suspended?",
+        "options": [
+            "Depends on the police officer.",
+            "6 months.",
+            "1 year.",
+            "2 year."
+        ],
+        "correctIndex": 2,
+        "explanation": "Your Ontario driver's license will be suspended for 12 months in this case."
+    },
+    {
+        "image": null,
+        "question": "To qualify as an impaired driver, what should be your blood alcohol level?",
+        "options": [
+            "0.05%.",
+            "0.08%.",
+            "1%.",
+            "0.02%."
+        ],
+        "correctIndex": 1,
+        "explanation": "If your blood alcohol level is greater than 0.08%, you are impaired in the eyes of law."
+    },
+    {
+        "image": null,
+        "question": "If you have a problem related to vision and it is on your driver's license, is it necessary to wear glasses or contact lenses while driving?",
+        "options": [
+            "True.",
+            "False.",
+            "Depends on weather.",
+            "Only if you have difficulty in driving."
+        ],
+        "correctIndex": 0,
+        "explanation": "It is mandatory to wear your glasses or contact lenses while driving your vehicle."
+    },
+    {
+        "image": null,
+        "question": "According to the law, what should you do when there is a safety island and you see a vehicle is loading or unloading passengers?",
+        "options": [
+            "Come to a complete stop.",
+            "Stay at least 10m clear of the island.",
+            "Pass with caution.",
+            "Both A and B."
+        ],
+        "correctIndex": 2,
+        "explanation": "Do not obstruct the flow of traffic, pass carefully."
+    },
+    {
+        "image": null,
+        "question": "What should you do while exiting a freeway?",
+        "options": [
+            "Give proper signal and maintain vehicle speed till you are off freeway.",
+            "Change your speed according to the posted speed limit or speed on exit ramp.",
+            "Move your vehicle to the closest lane to freeway exit.",
+            "All of the above."
+        ],
+        "correctIndex": 3,
+        "explanation": "You have to take care of all of the above points while exiting a freeway."
+    },
+    {
+        "image": null,
+        "question": "Drivers reach intersection from opposite sides, who has the right of way according to the law if first driver is going straight and other is turning left?",
+        "options": [
+            "Driver going left.",
+            "Driver going straight.",
+            "Driver going right.",
+            "Driver reversing."
+        ],
+        "correctIndex": 1,
+        "explanation": "Drivers going straight have the right-of-way over anyone else on the road, unless there are pedestrians on the road."
+    },
+    {
+        "image": null,
+        "question": "What will happen if a police officer believes you are impaired and you refuse to take a breathalyzer test?",
+        "options": [
+            "License suspended for 60 days.",
+            "License suspended for 90 days.",
+            "License suspended for 120 days.",
+            "License suspended for 180 days."
+        ],
+        "correctIndex": 1,
+        "explanation": "If you refuse to take a breathalyzer test, your license will be suspended for 90 days."
+    },
+    {
+        "image": null,
+        "question": "What is the correct thing to do in case of brake failure?",
+        "options": [
+            "Come to a complete stop.",
+            "Apply parking brakes carefully.",
+            "Have proper control over parking brakes.",
+            "All of the above."
+        ],
+        "correctIndex": 3,
+        "explanation": "You have to take care of all of the above points in case of failing brakes."
+    },
+    {
+        "image": null,
+        "question": "Why is it safer to look on your right side directly when changing lanes?",
+        "options": [
+            "It is actually not safe.",
+            "So you don't miss your blind spot.",
+            "Easier than using rear view mirror.",
+            "All of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "It is easy to miss blind spot while driving your car, you have to look at the side mirrors while changing lanes."
+    },
+    {
+        "image": null,
+        "question": "In which season should you use your snow tires?",
+        "options": [
+            "In summer.",
+            "In winter.",
+            "In every season, because they are thick and have more grip on the road.",
+            "In spring."
+        ],
+        "correctIndex": 1,
+        "explanation": "Snow tires should be used in winters in the cars to avoid slipping tires on the road."
     }
 ]

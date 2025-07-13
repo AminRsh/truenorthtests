@@ -1,222 +1,242 @@
 [
     {
-        "image": "/assets/images/1.png",
+        "image": null,
+        "question": "What is the meaning of “No Parking” sign according to the law?",
         "options": [
-            "Stop sign",
-            "Stop if road is crowded",
-            "Stop sign ahead",
-            "None of the above"
-        ],
-        "correctIndex": 2,
-        "explanation": "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
-    },
-    {
-        "image": "/assets/images/2.png",
-        "options": [
-            "Wiggly road",
-            "Winding road",
-            "Sharp road",
-            "Bending road"
-        ],
-        "correctIndex": 1,
-        "explanation": "Winding road sign warns the drivers to slow their vehicles as there are many curves on the road. Moreover, Winding Road refers to the frequent turns on the path in various directions."
-    },
-    {
-        "image": "/assets/images/3.png",
-        "options": [
-            "No passing allowed",
-            "braking is not allowed",
-            "No more than 2 cars on road",
-            "None of these"
+            "No parking of vehicle in that area.",
+            "Parking only is there is no traffic.",
+            "Parking only if it is urgent.",
+            "None of the above."
         ],
         "correctIndex": 0,
-        "explanation": "It's not safe to pass the vehicle on the road as the road is not broad enough, there may be curvy roads ahead or lack of visibility."
+        "explanation": "According to the law “No parking” sign represents that the vehicle parking is prohibited in that specific area."
     },
     {
-        "image": "/assets/images/4.png",
+        "image": null,
+        "question": "Drivers must use low beam when:",
         "options": [
-            "There is barrier in front",
-            "Keep right, road splits in two",
-            "Keep left, road splits in two",
-            "Stop at barrier"
-        ],
-        "correctIndex": 1,
-        "explanation": "Stay at the right side of traffic island."
-    },
-    {
-        "image": "/assets/images/5.png",
-        "options": [
-            "Intersection ahead",
-            "Plus-road ahead",
-            "Left for right turn before straight turn",
-            "None of the above"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is an intersection road ahead sign which warns the drivers to slow down their vehicle as two or more lanes are connecting ahead."
-    },
-    {
-        "image": "/assets/images/6.png",
-        "options": [
-            "Narrow bridge ahead",
-            "Road's merging",
-            "Pavement narrows ahead",
-            "None of the above"
+            "Individual is 50m behind another vehicle.",
+            "Individual is 100m behind another vehicle.",
+            "Individual is 150m behind another vehicle.",
+            "Individual is 200m behind another vehicle."
         ],
         "correctIndex": 2,
-        "explanation": "This sign represents that the ahead road is not broad."
+        "explanation": "It is mandatory for the drivers to use low beam light when they are 150 m behind another vehicle as low beam light enhance the visibility and leads to less risk while driving."
     },
     {
-        "image": "/assets/images/7.png",
+        "image": null,
+        "question": "What should be your ideal position while you turn left on a two-way road?",
         "options": [
-            "Left turn prohibited",
-            "No U-turn",
-            "No reversing",
-            "Both A and B"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign means taking turn in the opposite direction is prohibited."
-    },
-    {
-        "image": "/assets/images/8.png",
-        "options": [
-            "Pedestrian cross-over",
-            "Senior citizen crossing",
-            "School zone",
-            "Playground area ahead"
+            "Left lane.",
+            "Right lane.",
+            "Center line of roadway.",
+            "Your current lane."
         ],
         "correctIndex": 2,
-        "explanation": "This is a School Zone ahead sign which warns you to slow down your vehicle during the school timings."
+        "explanation": "Whenever you want to take left turn on a two-way road then you have to be in the center of the road."
     },
     {
-        "image": "/assets/images/9.png",
+        "image": null,
+        "question": "What will happen if you drive with a G1 license without supervision?",
         "options": [
-            "Snowing ahead",
-            "Drive carefully in summers",
-            "Pavement slippery when wet",
-            "None of these"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a warning sign which explains that driver have to proceed carefully as the road is slippery when wet and the reason for this maybe snow, rain or dew."
-    },
-    {
-        "image": "/assets/images/10.png",
-        "options": [
-            "Traffic sign ahead",
-            "Intersection ahead",
-            "Stop at traffic intersection",
-            "No need to stop at intersection"
+            "$110 fine and 30-day license suspension.",
+            "2-month license suspension.",
+            "$200 fine.",
+            "Both B and C."
         ],
         "correctIndex": 0,
-        "explanation": "This sign represents that there is a traffic sign ahead and drivers have to slow down their vehicle or come to a complete stop when the lights turn red."
+        "explanation": "As per the law, if you have G1 license and drive vehicle without assistance of the experienced person then $110 fine is charged and your license will get suspended for 30 days."
     },
     {
-        "image": "/assets/images/11.png",
+        "image": null,
+        "question": "When a vehicle stops on a street with no safety zone, at what distance at the back should you stop your car?",
         "options": [
-            "Do not stop between in the area between two of these signs",
-            "No stopping",
-            "Do not enter",
-            "Stop for inspection"
+            "2m behind rearmost door.",
+            "2m behind front door.",
+            "4m behind rearmost door.",
+            "4m behind front door."
         ],
         "correctIndex": 0,
-        "explanation": "This sign means that parking in a specific area which is in between the signs and parking the vehicle at any point of time is prohibited as it's not safe for the drivers to park their vehicle at such warning spots."
+        "explanation": "When there is no safety zone and the vehicle stops at the street then you have to stop 2 meter behind the rearmost door."
     },
     {
-        "image": "/assets/images/12.png",
+        "image": null,
+        "question": "When you just reached an intersection and light changes to yellow. What should you do?",
         "options": [
-            "No right turn at intersection",
-            "No left turn at intersection",
-            "Do not turn at intersection",
-            "No stopping on left side"
-        ],
-        "correctIndex": 1,
-        "explanation": "At intersection its prohibited to take left turn."
-    },
-    {
-        "image": "/assets/images/13.png",
-        "options": [
-            "Stop sign ahead",
-            "Yield sign",
-            "Give way sign",
-            "Stop sign"
+            "Stop carefully if possible.",
+            "If you cannot stop safely, proceed carefully.",
+            "Speed up and pass the intersection.",
+            "Both A and B."
         ],
         "correctIndex": 3,
-        "explanation": "It's a regulatory sign which means this sign gives you some kind of direction and its mandatory to obey it. Thus, whenever you see this sign, you have to come to a full stop."
+        "explanation": "When you reach at intersection and observe that light changed from green to yellowthen you can do two things. Firstly, you can come to a full stop. Secondly, if you are not able to stop then proceed carefully."
     },
     {
-        "image": "/assets/images/14.png",
+        "image": null,
+        "question": "What can you do while your driver's license is suspended?",
         "options": [
-            "Give way sign",
-            "Yield sign",
-            "Stop sign",
+            "Drive a car.",
+            "Drive a car between 9am to 5pm.",
+            "Drive a car under emergency situation.",
+            "None of the above."
+        ],
+        "correctIndex": 3,
+        "explanation": "If your driver's license got suspended then you are not allowed to drive the vehicle under any situation."
+    },
+    {
+        "image": null,
+        "question": "According to the law, when should you turn on vehicle lights?",
+        "options": [
+            "30 minutes before sunset and 30 minutes after sunrise.",
+            "If you cannot see properly at a distance of 150m or less.",
+            "9am to 5pm.",
+            "Both A and B."
+        ],
+        "correctIndex": 3,
+        "explanation": "As per the law you are allowed to turn on the vehicle lights between the 30 minutes before sunset and 30 minutes after sunset and also when you are not able to see properly at 150 m distance or less than that."
+    },
+    {
+        "image": null,
+        "question": "When you see a yield sign what should you do according to the law?",
+        "options": [
+            "Slow down for some time and then speed up.",
+            "Slow down, stop if needed, give way.",
+            "Slow down, don't stop.",
+            "Come to a complete stop and give way."
+        ],
+        "correctIndex": 1,
+        "explanation": "As per law you have to slow down the vehicle or stop the vehicle when it's needed also give right of way to the traffic."
+    },
+    {
+        "image": null,
+        "question": "While approaching a flashing light at a railway crossing, what should you do?",
+        "options": [
+            "Stop 5m from the rail track.",
+            "Stop 10m from the rail track.",
+            "Stop 15m from the rail track.",
+            "Stop 20m from the rail track."
+        ],
+        "correctIndex": 0,
+        "explanation": "When you are near the railway crossing and notice the lights are flashing as train is approaching you have to stop at 5 meters of distance from the railway track."
+    },
+    {
+        "image": null,
+        "question": "When you see a stop sign, you must:",
+        "options": [
+            "Slow down and carefully pass.",
+            "Come to a complete stop and proceed if it's safe.",
+            "Use horns and proceed carefully.",
+            "Speed up."
+        ],
+        "correctIndex": 1,
+        "explanation": "Stop sign represents that you have to come to a complete stop and can proceed with caution if it's safe to do so."
+    },
+    {
+        "image": null,
+        "question": "If you drive 50 km/h over the specified speed limit of the road, what legal action will be taken against you?",
+        "options": [
+            "License suspension for 1 month.",
+            "License suspension for 2 months.",
+            "License suspension for 3 months.",
+            "Vehicle impounded for 6 weeks."
+        ],
+        "correctIndex": 0,
+        "explanation": "If you are caught over speeding then the particular limit of the speed then your license will be suspended for 1 month."
+    },
+    {
+        "image": null,
+        "question": "While driving your car away from the parked zone, you should:",
+        "options": [
+            "Give signal, then proceed.",
+            "Check traffic, signal, proceed when it is safe.",
+            "Proceed your vehicle, no need to give signal.",
             "Both A and B"
         ],
         "correctIndex": 3,
-        "explanation": "This is a yield sign which is an upside-down triangle. It ensures that you have to wait until the traffic at intersection gets clear along with this if it's necessary than stop your vehicle."
+        "explanation": "You should always check the traffic signal and can proceed with caution if it is safe to do so and also you can give signal and that you can proceed."
     },
     {
-        "image": "/assets/images/15.png",
+        "image": null,
+        "question": "When you get 15 demerit points on your license, your license is:",
         "options": [
-            "Keep right on multilane road, slower traffic",
-            "Keep left on multilane road, slower traffic",
-            "Keep your vehicle on right and let slower traffic pass from left",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "On multi-lane road drivers must keep their vehicle on right lane as the traffic is slow there."
-    },
-    {
-        "image": "/assets/images/16.png",
-        "options": [
-            "Two way left turn lane only",
-            "One way left turn lane only",
-            "Both A and B",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is a dual left turn sign which means that in any of the direction there is only left turn."
-    },
-    {
-        "image": "/assets/images/17.png",
-        "options": [
-            "Do not turn left at red light",
-            "Do not turn right at red light",
-            "Do not go straight at red light",
-            "None of these"
+            "Suspended permanently.",
+            "For 30 days.",
+            "For 2 months.",
+            "None of the above."
         ],
         "correctIndex": 1,
-        "explanation": "This sign represents that drivers must not turn right when the traffic light is red at the intersection."
+        "explanation": "According to the law you're driving license will get suspended for 30 days if you get 15 demerit points."
     },
     {
-        "image": "/assets/images/18.png",
+        "image": null,
+        "question": "Under what condition can you lend your driver's license for a day?",
         "options": [
-            "Truck may enter from left side",
-            "Truck bridge entrance from right side",
-            "Fire truck entrance",
-            "None of the above"
+            "Under emergency.",
+            "If someone from vehicle needs identification.",
+            "In some special situations.",
+            "Never."
         ],
-        "correctIndex": 1,
-        "explanation": "This sign shows that the trucks are allowed to enter from the right side of the lane."
+        "correctIndex": 3,
+        "explanation": "As per law you are not allowed to give your driver's license to another person."
     },
     {
-        "image": "/assets/images/19.png",
+        "image": null,
+        "question": "When does a driver need to give a re-exam?",
         "options": [
-            "Wild animals cross at this road",
-            "Deer crossing area",
-            "Both A and B",
-            "None of the above"
+            "At 3 demerit points.",
+            "At 6 demerit points.",
+            "At 9 demerit points.",
+            "At 12 demerit points."
         ],
         "correctIndex": 2,
-        "explanation": "This sign indicates warning regarding the regular crossing of lanes by deer."
+        "explanation": "When an individual collects 9 demerit points on their license then they have to give the exam again in order to be able to drive."
     },
     {
-        "image": "/assets/images/20.png",
+        "image": null,
+        "question": "To ensure safety while driving your vehicle down a steep hill, what should you do?",
         "options": [
-            "Survey ahead",
-            "Road work temporary sign",
-            "Cement ahead",
-            "Road closed ahead"
+            "Use a low gear so engine can assist with braking.",
+            "Put your vehicle in neutral gear, so it can proceed smoothly.",
+            "Either A or B.",
+            "None of the above."
         ],
-        "correctIndex": 1,
-        "explanation": "It indicates that some work is going on road for short duration."
+        "correctIndex": 0,
+        "explanation": "Whenever you drive at steep hill you always have to use a low gear to make sure your safety."
+    },
+    {
+        "image": null,
+        "question": "What should you do when another car is trying to overtake you?",
+        "options": [
+            "Stop your vehicle and let the other vehicle pass safely.",
+            "Move to the left and stop.",
+            "Move to right and let the vehicle pass.",
+            "Move to the right and stop."
+        ],
+        "correctIndex": 2,
+        "explanation": "If another vehicle is trying to overtake you then you have to move to the right side of the lane and let them pass."
+    },
+    {
+        "image": null,
+        "question": "An individual wants to turn right at a red light, what is the right thing to do?",
+        "options": [
+            "Signal, come to a complete stop, make right turn without disturbing traffic.",
+            "Slow down, signal, merge in the turn.",
+            "Proceed with caution, do not stop under any case.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "In a scenario, at intersection when the traffic lights turn red and an individual wants to turn right, they can come to a full stop and after that without disturbing the other vehicles make right turn."
+    },
+    {
+        "image": null,
+        "question": "Under what circumstance could you pass a vehicle from the right side?",
+        "options": [
+            "You can always pass from the right side.",
+            "Two lanes sharing the same road.",
+            "Two or more lanes in the same direction.",
+            "Never."
+        ],
+        "correctIndex": 2,
+        "explanation": "When there are two or more lanes in the same way then you are allowed to pass another vehicle from the right side."
     }
 ]

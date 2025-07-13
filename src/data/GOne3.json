@@ -1,6 +1,7 @@
 [
     {
         "image": "/assets/images/test3/1.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Pedestrians are not allowed to stand in this area.",
             "Do not stop your car in this area, unless loading or unloading passengers.",
@@ -12,6 +13,7 @@
     },
     {
         "image": "/assets/images/test3/2.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "No pedestrians allowed.",
             "Loading and unloading of passengers allowed only with disabled person permit.",
@@ -23,6 +25,7 @@
     },
     {
         "image": "/assets/images/test3/3.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "No accident allowed.",
             "Pedestrians only path.",
@@ -34,6 +37,7 @@
     },
     {
         "image": "/assets/images/test3/4.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "School bus stop ahead.",
             "School zone ahead.",
@@ -45,6 +49,7 @@
     },
     {
         "image": "/assets/images/test3/5.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Road ahead is unpaved.",
             "There may be snow on the road ahead.",
@@ -56,6 +61,7 @@
     },
     {
         "image": "/assets/images/test3/6.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Watch out for falling rocks, drive carefully.",
             "Be prepared for earthquake.",
@@ -67,6 +73,7 @@
     },
     {
         "image": "/assets/images/test3/7.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Drive on either left lane or right lane.",
             "Share the road with oncoming traffic.",
@@ -78,6 +85,7 @@
     },
     {
         "image": "/assets/images/test3/8.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Cyclist is turning left.",
             "Cyclist is turning Right.",
@@ -89,6 +97,7 @@
     },
     {
         "image": "/assets/images/test3/9.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Cyclist is turning slowing or stopping.",
             "Cyclist is turning Right.",
@@ -100,6 +109,7 @@
     },
     {
         "image": "/assets/images/test3/10.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Cyclist is turning left.",
             "Cyclist is turning. slowing or stopping",
@@ -111,6 +121,7 @@
     },
     {
         "image": "/assets/images/test3/11.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Mountains ahead.",
             "Pavement ahead has sharp edges.",
@@ -122,6 +133,7 @@
     },
     {
         "image": "/assets/images/test3/12.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Current highway speed limit is 50km/h.",
             "Speed limit changes ahead.",
@@ -133,6 +145,7 @@
     },
     {
         "image": "/assets/images/test3/13.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Railway crossing ahead, drive carefully and watch out for train.",
             "Intersection ahead.",
@@ -144,6 +157,7 @@
     },
     {
         "image": "/assets/images/test3/14.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Parking in the direction of the arrow.",
             "Sharp turn or bend in the road.",
@@ -155,6 +169,7 @@
     },
     {
         "image": "/assets/images/test3/15.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Left lane ends.",
             "Narrow bridge ahead.",
@@ -166,6 +181,7 @@
     },
     {
         "image": "/assets/images/test3/16.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Maximum speed on the road is 50km/h.",
             "Maximum safe speed on a ramp.",
@@ -177,6 +193,7 @@
     },
     {
         "image": "/assets/images/test3/17.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Divided highway ends, keep left.",
             "Divided highway ends, keep right.",
@@ -188,6 +205,7 @@
     },
     {
         "image": "/assets/images/test3/18.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Restroom at the sideroad.",
             "Disabled or wheel chair parking only.",
@@ -199,6 +217,7 @@
     },
     {
         "image": "/assets/images/test3/19.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "Intersection ahead.",
             "Traffic island ahead sign.",
@@ -210,6 +229,7 @@
     },
     {
         "image": "/assets/images/test3/20.jpg",
+        "question": "What is the purpose of this traffic sign?",
         "options": [
             "2 passengers in car may use this lane.",
             "3 passengers in car may use this lane.",

@@ -122,7 +122,7 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
             ) : (
                 <div ref={questionRef} className="flex gap-6 flex-col md:flex-row">
                     <div className="flex-1 space-y-4">
-                        <h2 className="text-xl font-bold">What is the purpose of this traffic sign?</h2>
+                        <h2 className="text-xl font-bold">{question.question}</h2>
                         <ul className="space-y-2">
                             {question.options.map((option, index) => (
                                 <li
@@ -185,9 +185,8 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
 
                     </div>
 
-                    <div className="flex items-center justify-center ">
+                    {question.image && (<div className="flex items-center justify-center ">
                             <Image
-                                // src={getImagePlaceholder(currentIndex)}
                                 src={question.image}
                                 alt="Traffic Sign"
                                 className="object-cover rounded-lg shadow-2xl"
@@ -196,7 +195,7 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                                 style={{ height: 'auto' }}
                                 priority
                             />
-                    </div>
+                    </div>)}
                 </div>
             )}
         </div>

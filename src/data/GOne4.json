@@ -1,222 +1,242 @@
 [
     {
-        "image": "/assets/images/1.png",
+        "image": null,
+        "question": "Which light should you use while driving in dense fog?",
         "options": [
-            "Stop sign",
-            "Stop if road is crowded",
-            "Stop sign ahead",
-            "None of the above"
+            "Parking lights.",
+            "Hazard lights.",
+            "Low beam lights.",
+            "High beam lights."
         ],
         "correctIndex": 2,
-        "explanation": "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
+        "explanation": "Low beam lights are used when drivers are not able to see the things which are far away from them due to bad weather conditions or darkness along with this such lights are appropriate for those individuals whose speed limit is up to 25 mph."
     },
     {
-        "image": "/assets/images/2.png",
+        "image": null,
+        "question": "Driver must change lights from high beam to low beam when following behind a vehicle within:",
         "options": [
-            "Wiggly road",
-            "Winding road",
-            "Sharp road",
-            "Bending road"
+            "80m",
+            "60m.",
+            "40m.",
+            "20m."
         ],
         "correctIndex": 1,
-        "explanation": "Winding road sign warns the drivers to slow their vehicles as there are many curves on the road. Moreover, Winding Road refers to the frequent turns on the path in various directions."
+        "explanation": "It is mandatory for driver to use low beam lights whenever they follow the vehicle which is behind them whose distance is within 60m that is 200 ft."
     },
     {
-        "image": "/assets/images/3.png",
+        "image": null,
+        "question": "You should only change lanes by:",
         "options": [
-            "No passing allowed",
-            "braking is not allowed",
-            "No more than 2 cars on road",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "It's not safe to pass the vehicle on the road as the road is not broad enough, there may be curvy roads ahead or lack of visibility."
-    },
-    {
-        "image": "/assets/images/4.png",
-        "options": [
-            "There is barrier in front",
-            "Keep right, road splits in two",
-            "Keep left, road splits in two",
-            "Stop at barrier"
-        ],
-        "correctIndex": 1,
-        "explanation": "Stay at the right side of traffic island."
-    },
-    {
-        "image": "/assets/images/5.png",
-        "options": [
-            "Intersection ahead",
-            "Plus-road ahead",
-            "Left for right turn before straight turn",
-            "None of the above"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is an intersection road ahead sign which warns the drivers to slow down their vehicle as two or more lanes are connecting ahead."
-    },
-    {
-        "image": "/assets/images/6.png",
-        "options": [
-            "Narrow bridge ahead",
-            "Road's merging",
-            "Pavement narrows ahead",
-            "None of the above"
-        ],
-        "correctIndex": 2,
-        "explanation": "This sign represents that the ahead road is not broad."
-    },
-    {
-        "image": "/assets/images/7.png",
-        "options": [
-            "Left turn prohibited",
-            "No U-turn",
-            "No reversing",
-            "Both A and B"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign means taking turn in the opposite direction is prohibited."
-    },
-    {
-        "image": "/assets/images/8.png",
-        "options": [
-            "Pedestrian cross-over",
-            "Senior citizen crossing",
-            "School zone",
-            "Playground area ahead"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a School Zone ahead sign which warns you to slow down your vehicle during the school timings."
-    },
-    {
-        "image": "/assets/images/9.png",
-        "options": [
-            "Snowing ahead",
-            "Drive carefully in summers",
-            "Pavement slippery when wet",
-            "None of these"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a warning sign which explains that driver have to proceed carefully as the road is slippery when wet and the reason for this maybe snow, rain or dew."
-    },
-    {
-        "image": "/assets/images/10.png",
-        "options": [
-            "Traffic sign ahead",
-            "Intersection ahead",
-            "Stop at traffic intersection",
-            "No need to stop at intersection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign represents that there is a traffic sign ahead and drivers have to slow down their vehicle or come to a complete stop when the lights turn red."
-    },
-    {
-        "image": "/assets/images/11.png",
-        "options": [
-            "Do not stop between in the area between two of these signs",
-            "No stopping",
-            "Do not enter",
-            "Stop for inspection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign means that parking in a specific area which is in between the signs and parking the vehicle at any point of time is prohibited as it's not safe for the drivers to park their vehicle at such warning spots."
-    },
-    {
-        "image": "/assets/images/12.png",
-        "options": [
-            "No right turn at intersection",
-            "No left turn at intersection",
-            "Do not turn at intersection",
-            "No stopping on left side"
-        ],
-        "correctIndex": 1,
-        "explanation": "At intersection its prohibited to take left turn."
-    },
-    {
-        "image": "/assets/images/13.png",
-        "options": [
-            "Stop sign ahead",
-            "Yield sign",
-            "Give way sign",
-            "Stop sign"
+            "Blowing horn and let other drivers know that you are switching lanes.",
+            "Decreasing your speed on highway and carefully change lanes.",
+            "Giving hand signal and change lanes.",
+            "Giving proper signal, and look to make sure that lanes can be safely changed."
         ],
         "correctIndex": 3,
-        "explanation": "It's a regulatory sign which means this sign gives you some kind of direction and its mandatory to obey it. Thus, whenever you see this sign, you have to come to a full stop."
+        "explanation": "Drivers have to give appropriate signals before changing the lanes to make sure that it is changed safely without any risk."
     },
     {
-        "image": "/assets/images/14.png",
+        "image": null,
+        "question": "Upon hearing siren of an emergency vehicle, what is the right thing to do according to the law?",
         "options": [
-            "Give way sign",
-            "Yield sign",
-            "Stop sign",
-            "Both A and B"
-        ],
-        "correctIndex": 3,
-        "explanation": "This is a yield sign which is an upside-down triangle. It ensures that you have to wait until the traffic at intersection gets clear along with this if it's necessary than stop your vehicle."
-    },
-    {
-        "image": "/assets/images/15.png",
-        "options": [
-            "Keep right on multilane road, slower traffic",
-            "Keep left on multilane road, slower traffic",
-            "Keep your vehicle on right and let slower traffic pass from left",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "On multi-lane road drivers must keep their vehicle on right lane as the traffic is slow there."
-    },
-    {
-        "image": "/assets/images/16.png",
-        "options": [
-            "Two way left turn lane only",
-            "One way left turn lane only",
-            "Both A and B",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is a dual left turn sign which means that in any of the direction there is only left turn."
-    },
-    {
-        "image": "/assets/images/17.png",
-        "options": [
-            "Do not turn left at red light",
-            "Do not turn right at red light",
-            "Do not go straight at red light",
-            "None of these"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign represents that drivers must not turn right when the traffic light is red at the intersection."
-    },
-    {
-        "image": "/assets/images/18.png",
-        "options": [
-            "Truck may enter from left side",
-            "Truck bridge entrance from right side",
-            "Fire truck entrance",
-            "None of the above"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign shows that the trucks are allowed to enter from the right side of the lane."
-    },
-    {
-        "image": "/assets/images/19.png",
-        "options": [
-            "Wild animals cross at this road",
-            "Deer crossing area",
-            "Both A and B",
-            "None of the above"
+            "Pull to the right and keep driving.",
+            "Pull to the left and keep driving.",
+            "Pull to the right and stop.",
+            "Pull to the left and stop."
         ],
         "correctIndex": 2,
-        "explanation": "This sign indicates warning regarding the regular crossing of lanes by deer."
+        "explanation": "As per the rules of traffic law, whenever an individual hears the siren of an emergency vehicle, they have to move their vehicle to the right side and come to complete stop."
     },
     {
-        "image": "/assets/images/20.png",
+        "image": null,
+        "question": "Which of the following documents must you produce as a vehicle owner to the on-duty police officer?",
         "options": [
-            "Survey ahead",
-            "Road work temporary sign",
-            "Cement ahead",
-            "Road closed ahead"
+            "Vehicle insurance card.",
+            "Vehicle ownership certificate.",
+            "Driver's license.",
+            "All of the above."
+        ],
+        "correctIndex": 3,
+        "explanation": "Whenever police officer who is on duty asks you for the documents you have to present your three documents which are valid driver's license, vehicle ownership certificate and insurance card of the vehicle."
+    },
+    {
+        "image": null,
+        "question": "If a car accident damage exceeds $1000, it must be reported to the police officer or when?",
+        "options": [
+            "Total cost of accident is $900.",
+            "Its working hours for police.",
+            "There is a personal injury.",
+            "None of the above."
+        ],
+        "correctIndex": 2,
+        "explanation": "There are two situations when you have to report to police immediately, firstly, if a car accident occurs and damage is more than $1000, secondly, when there is personal injury."
+    },
+    {
+        "image": null,
+        "question": "When the light turns green at the intersection, who has the most priority (right-of-way) over everyone else?",
+        "options": [
+            "Vehicles turning right at green light.",
+            "Vehicles turning left at green light.",
+            "Pedestrians crossing with a green light.",
+            "None of the above."
+        ],
+        "correctIndex": 2,
+        "explanation": "At intersection pedestrians have the right of way over everyone else when traffic light turns green."
+    },
+    {
+        "image": null,
+        "question": "If you are a G1 license holder, you must drive only when accompanied by:",
+        "options": [
+            "G license holder with 4 years of experience.",
+            "G1 license holder with 3 years of experience.",
+            "G2 license holder with 2 years of experience.",
+            "G2 license holder with 3 years of experience."
+        ],
+        "correctIndex": 0,
+        "explanation": "When an individual obtains their G1 license and wants to drive they need assistance of someone who have 4 years of driving experience along with G license. Its not safe to drive alone being a new driver."
+    },
+    {
+        "image": null,
+        "question": "While the pedestrian is crossing the road and traffic signal changes, who has the right-of-way?",
+        "options": [
+            "Vehicles going left.",
+            "Pedestrian.",
+            "Motorists.",
+            "None of the above."
         ],
         "correctIndex": 1,
-        "explanation": "It indicates that some work is going on road for short duration."
+        "explanation": "In a situation where the traffic light changes when pedestrians cross the road drivers have to wait until the individuals cross the road."
+    },
+    {
+        "image": null,
+        "question": "In case of an accident involving you, it should be reported to a police officer. How soon should you provide the accident report?",
+        "options": [
+            "Within 4 hours.",
+            "Within a day.",
+            "As soon as possible.",
+            "Within a week."
+        ],
+        "correctIndex": 2,
+        "explanation": "As per the rules of law if there is any involvement of you in the accident you have to immediately inform the police officer regarding that incident."
+    },
+    {
+        "image": null,
+        "question": "Your driver's license could be cancelled for:",
+        "options": [
+            "Not giving re-examination.",
+            "Surrendering your license to MTO.",
+            "Reinstatement fee not paid.",
+            "All of the above."
+        ],
+        "correctIndex": 3,
+        "explanation": "There are three main reasons due to which you can lose your driver's license, First, when you didn't clear your exam in first attempt and also fail to attend another attempt. Second, when you fail to pay the reinstatement fees. Third, if you give your license to the Ministry of Transportation."
+    },
+    {
+        "image": null,
+        "question": "If an individual drives a vehicle while disqualified:",
+        "options": [
+            "Vehicle impounded for 6 months.",
+            "$500 fine or 6-month imprisonment or both.",
+            "License suspension for half a year.",
+            "Any of the above."
+        ],
+        "correctIndex": 3,
+        "explanation": "In the situation when driver is disqualifies and still caught driving the vehicle than some of the actions can take place such as for 6 months their vehicle will get impounded, they can be charged fine for $500 also gets imprisoned for 6 months. Moreover, their license will be suspended for 6 months more which will be added on their current period."
+    },
+    {
+        "image": null,
+        "question": "Default speed limit in towns, cities and villages is:",
+        "options": [
+            "40 km/h.",
+            "50 km/h.",
+            "60 km/h.",
+            "70 km/h."
+        ],
+        "correctIndex": 1,
+        "explanation": "If speed limit is not posted on the boards than the maximum speed will be 50km/h in villages, cities as well as towns."
+    },
+    {
+        "image": null,
+        "question": "What should you do while facing a red light at an intersection?",
+        "options": [
+            "Proceed if way is clear.",
+            "Proceed if lights are green.",
+            "Proceed when lights are yellow.",
+            "None of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "At intersection if you see red light you have to stop your vehicle unless it turns green or you can proceed carefully, if the way is clear."
+    },
+    {
+        "image": null,
+        "question": "What should you do if you see a flashing yellow light at an intersection?",
+        "options": [
+            "Stop till lights turn green.",
+            "Do not slow down and proceed.",
+            "Slow down and proceed.",
+            "Come to a complete stop."
+        ],
+        "correctIndex": 2,
+        "explanation": "When you observe a flashing yellow light at an intersection then you have to slow down the vehicle and proceed carefully when the way is clear."
+    },
+    {
+        "image": null,
+        "question": "While holding a G2 driving license, your blood alcohol level must be lower than:",
+        "options": [
+            "0.05%.",
+            "0.08%.",
+            "0.00%.",
+            "0.04%."
+        ],
+        "correctIndex": 2,
+        "explanation": "As a G2 driving license holder it is mandatory that your blood alcohol level have to be 0.00%."
+    },
+    {
+        "image": null,
+        "question": "What should you do while overtaking a motorcycle (two-wheel vehicle)?",
+        "options": [
+            "Overtake the motorcyclist like you overtake a car.",
+            "Blow horn to warn the motorcyclist and pass with the same lane.",
+            "Use high beam lights to alert the motorcyclist and then overtake.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "You can pass the two-wheeler vehicle as you overtake the car."
+    },
+    {
+        "image": null,
+        "question": "Overdriving your vehicle headlights could be very dangerous because:",
+        "options": [
+            "It will overload headlight components.",
+            "Speed of vehicle is very fast.",
+            "Headlights would not produce enough brightness to see clearly.",
+            "You will not be able to stop your vehicle within the distance you can see."
+        ],
+        "correctIndex": 3,
+        "explanation": "Driving fast founds to be risky as it's not possible for you to stop the vehicle immediately in the distance in which you can see."
+    },
+    {
+        "image": null,
+        "question": "If you had a G2 license for less than half a year and your age is less than 20, then:",
+        "options": [
+            "No passengers in car with age less than 20 years between 12am and 5pm.",
+            "Maximum 1 passengers in car with age less than 20 years between 12am and 5pm.",
+            "Maximum 2 passengers in car with age less than 20 years between 12am and 5pm.",
+            "Maximum 3 passengers in car with age less than 20 years between 12am and 5pm."
+        ],
+        "correctIndex": 1,
+        "explanation": "As per the rules, if your age is less than 20 and also hold G2 license for less than 6 months then you are allowed to have only 1 passenger with you and their age should be 19 and you can drive between 12am to 5pm."
+    },
+    {
+        "image": null,
+        "question": "If you had a G2 license for more than half a year and your age is less than 20:",
+        "options": [
+            "No passengers in car with age less than 20 years between 12am and 5pm.",
+            "Maximum 1 passenger in car with age less than 20 years between 12am and 5pm.",
+            "Maximum 2 passengers in car with age less than 20 years between 12am and 5pm.",
+            "Maximum 3 passengers in car with age less than 20 years between 12am and 5pm."
+        ],
+        "correctIndex": 3,
+        "explanation": "If you are a G2 license holder and had the license for more than 6 months then you are allowed to have 3 passengers in your car and they should be 19 and the timings for driving is between 12am to 5pm."
     }
 ]
