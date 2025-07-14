@@ -15,16 +15,16 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
     const [score, setScore] = useState<number>(0);
     const [answeredQuestions, setAnsweredQuestions] = useState<number>(0);
     const questionRef = useRef<HTMLDivElement>(null);
-    
+
     const searchParams = useSearchParams();
     const params = useParams();
-    const id = params?.id?.toString() || '1'; 
+    const id = params?.id?.toString() || '1';
     const shouldReset = searchParams.get('reset') === 'true';
-    
+
     useEffect(() => {
         if (shouldReset) {
             handleReset();
-            
+
             if (typeof window !== 'undefined') {
                 const newUrl = window.location.pathname;
                 window.history.replaceState({}, '', newUrl);
@@ -48,7 +48,7 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
         if (isCorrect) {
             setScore(prev => prev + 1);
         }
-        
+
         if (currentIndex === questions.length - 1) {
             setTimeout(() => {
                 setShowResult(true);
@@ -79,7 +79,7 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                     if (nextIndex < questions.length) {
                         setCurrentIndex(nextIndex);
 
-                        
+
                         gsap.fromTo(
                             questionRef.current,
                             { opacity: 0, y: 30 },
@@ -96,9 +96,8 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
     const passed = score >= 16;
 
     return (
-        <div className={`max-w-4xl mx-auto py-8 px-6 relative ${
-            showResult ? '' : 'bg-white rounded-2xl shadow-lg'
-        }`}>
+        <div className={`max-w-4xl mx-auto py-8 px-6 relative ${showResult ? '' : 'bg-white rounded-2xl shadow-lg'
+            }`}>
             {
                 !showResult && (
                     <div className="absolute top-4 right-4 bg-blue-100 p-2 rounded-lg shadow-2xl text-blue-800 text-sm z-10 ">
@@ -109,12 +108,12 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
             }
 
             {showResult ? (
-                    <G1Result
-                        score={score}    
-                        questions={questions}                    
-                        passed={passed}
-                        id={id}
-                    />
+                <G1Result
+                    score={score}
+                    questions={questions}
+                    passed={passed}
+                    id={id}
+                />
             ) : (
                 <div ref={questionRef} className={`flex gap-6 flex-col md:flex-row ${!question.image ? 'w-4/5' : ''}`}>
                     <div className="flex-1 space-y-4">
@@ -124,7 +123,7 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                                 <li
                                     key={index}
                                     onClick={() => handleOptionClick(index)}
-                                    className={`cursor-pointer p-3 rounded-xl border transition-colors duration-100 text-black
+                                    className={`cursor-pointer p-3 rounded-xl border transition-colors duration-100 text-black hover:bg-gray-300
                                         ${selectedOption === index ? 'bg-blue-100 border-blue-500' : 'bg-gray-50 border-gray-300'}
                                         ${isSubmitted && index === question.correctIndex ? 'border-green-500 bg-green-100' : ''}
                                         ${isSubmitted && index === selectedOption && index !== question.correctIndex ? 'border-red-500 bg-red-100' : ''}`}
@@ -143,6 +142,15 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                                 Submit
                             </button>
                         )}
+
+                        {/* {process.env.NODE_ENV === 'development' && (
+                            <button
+                                onClick={() => setShowResult(true)}
+                                className="fixed top-4 right-4 bg-red-500 text-white px-4 py-2 rounded z-50"
+                            >
+                                Debug: Show Results
+                            </button>
+                        )} */}
 
                         {isSubmitted && (
                             <div className="mt-4">
@@ -182,15 +190,15 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                     </div>
 
                     {question.image && (<div className="flex items-center justify-center ">
-                            <Image
-                                src={question.image}
-                                alt="Traffic Sign"
-                                className="object-cover rounded-lg shadow-2xl"
-                                width={400}
-                                height={300}
-                                style={{ height: 'auto' }}
-                                priority
-                            />
+                        <Image
+                            src={question.image}
+                            alt="Traffic Sign"
+                            className="object-cover rounded-lg shadow-2xl"
+                            width={400}
+                            height={300}
+                            style={{ height: 'auto' }}
+                            priority
+                        />
                     </div>)}
                 </div>
             )}

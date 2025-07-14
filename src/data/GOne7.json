@@ -1,222 +1,242 @@
 [
     {
-        "image": "/assets/images/1.png",
+        "question": "If a G1 driver is accompanied by a G2 driver, which should be the blood alcohol level of G2 driver?",
         "options": [
-            "Stop sign",
-            "Stop if road is crowded",
-            "Stop sign ahead",
+            "Less than 0.08%",
+            "Less than 0.06%",
+            "Less than 0.04%",
+            "No more than 0%"
+        ],
+        "correctIndex": 1,
+        "image": "",
+        "explanation": "G2 driver should have a blood alcohol content (BAC) less than 0.06% while accompanying a G1 driver."
+    },
+    {
+        "question": "When should be an accident reported to the police?",
+        "options": [
+            "Damage is over $2000.",
+            "Some gets injured.",
+            "Both A and B.",
+            "Whenever there is some damage."
+        ],
+        "correctIndex": 2,
+        "image": "",
+        "explanation": "Accidents should be reported to the police officer when damage is more than $2000 CAD or someone is harmed because of the accident."
+    },
+    {
+        "question": "Punishment for driving with license suspended for the first time is:",
+        "options": [
+            "$1000 to $5000 fine and license suspended for 4 years.",
+            "Fine of $200.",
+            "$1000 to $5000 fine only.",
             "None of the above"
         ],
         "correctIndex": 2,
-        "explanation": "This sign is known as Stop sign ahead which is a warning sign that reminds you to stop your vehicle."
+        "image": "",
+        "explanation": "If an individual drive with suspended license, $1000 to $5000 fine will be imposed."
     },
     {
-        "image": "/assets/images/2.png",
+        "question": "What is the correct way for alcohol detoxification?",
         "options": [
-            "Wiggly road",
-            "Winding road",
-            "Sharp road",
-            "Bending road"
+            "Apple juice.",
+            "Orange juice.",
+            "Give body time to remove alcohol naturally.",
+            "All of the above."
         ],
-        "correctIndex": 1,
-        "explanation": "Winding road sign warns the drivers to slow their vehicles as there are many curves on the road. Moreover, Winding Road refers to the frequent turns on the path in various directions."
+        "correctIndex": 2,
+        "image": "",
+        "explanation": "You must not drive and take some rest, time will naturally detoxify the body."
     },
     {
-        "image": "/assets/images/3.png",
+        "question": "You want to exit the highway but you accidentally miss it, what should you do?",
         "options": [
-            "No passing allowed",
-            "braking is not allowed",
-            "No more than 2 cars on road",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "It's not safe to pass the vehicle on the road as the road is not broad enough, there may be curvy roads ahead or lack of visibility."
-    },
-    {
-        "image": "/assets/images/4.png",
-        "options": [
-            "There is barrier in front",
-            "Keep right, road splits in two",
-            "Keep left, road splits in two",
-            "Stop at barrier"
-        ],
-        "correctIndex": 1,
-        "explanation": "Stay at the right side of traffic island."
-    },
-    {
-        "image": "/assets/images/5.png",
-        "options": [
-            "Intersection ahead",
-            "Plus-road ahead",
-            "Left for right turn before straight turn",
-            "None of the above"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is an intersection road ahead sign which warns the drivers to slow down their vehicle as two or more lanes are connecting ahead."
-    },
-    {
-        "image": "/assets/images/6.png",
-        "options": [
-            "Narrow bridge ahead",
-            "Road's merging",
-            "Pavement narrows ahead",
+            "Reverse your car and go through the exit.",
+            "Take a U-turn and go through the exit.",
+            "Go through the next exit.",
             "None of the above"
         ],
         "correctIndex": 2,
-        "explanation": "This sign represents that the ahead road is not broad."
+        "image": "",
+        "explanation": "You should look out for the next exit and continue going straight on the highway in case of missing an exit."
     },
     {
-        "image": "/assets/images/7.png",
+        "question": "What if you accidentally injure another person during an accident?",
         "options": [
-            "Left turn prohibited",
-            "No U-turn",
-            "No reversing",
-            "Both A and B"
-        ],
-        "correctIndex": 1,
-        "explanation": "This sign means taking turn in the opposite direction is prohibited."
-    },
-    {
-        "image": "/assets/images/8.png",
-        "options": [
-            "Pedestrian cross-over",
-            "Senior citizen crossing",
-            "School zone",
-            "Playground area ahead"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a School Zone ahead sign which warns you to slow down your vehicle during the school timings."
-    },
-    {
-        "image": "/assets/images/9.png",
-        "options": [
-            "Snowing ahead",
-            "Drive carefully in summers",
-            "Pavement slippery when wet",
-            "None of these"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a warning sign which explains that driver have to proceed carefully as the road is slippery when wet and the reason for this maybe snow, rain or dew."
-    },
-    {
-        "image": "/assets/images/10.png",
-        "options": [
-            "Traffic sign ahead",
-            "Intersection ahead",
-            "Stop at traffic intersection",
-            "No need to stop at intersection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign represents that there is a traffic sign ahead and drivers have to slow down their vehicle or come to a complete stop when the lights turn red."
-    },
-    {
-        "image": "/assets/images/11.png",
-        "options": [
-            "Do not stop between in the area between two of these signs",
-            "No stopping",
-            "Do not enter",
-            "Stop for inspection"
-        ],
-        "correctIndex": 0,
-        "explanation": "This sign means that parking in a specific area which is in between the signs and parking the vehicle at any point of time is prohibited as it's not safe for the drivers to park their vehicle at such warning spots."
-    },
-    {
-        "image": "/assets/images/12.png",
-        "options": [
-            "No right turn at intersection",
-            "No left turn at intersection",
-            "Do not turn at intersection",
-            "No stopping on left side"
-        ],
-        "correctIndex": 1,
-        "explanation": "At intersection its prohibited to take left turn."
-    },
-    {
-        "image": "/assets/images/13.png",
-        "options": [
-            "Stop sign ahead",
-            "Yield sign",
-            "Give way sign",
-            "Stop sign"
+            "Pull the person out of the car ASAP.",
+            "Give the person first Aid.",
+            "Do not remove the person unless it is necessary.",
+            "Both B and C."
         ],
         "correctIndex": 3,
-        "explanation": "It's a regulatory sign which means this sign gives you some kind of direction and its mandatory to obey it. Thus, whenever you see this sign, you have to come to a full stop."
+        "image": "",
+        "explanation": "Do not move the person unnecessarily and give the person first aid."
     },
     {
-        "image": "/assets/images/14.png",
+        "question": "What is the correct way to park your vehicle on a downhill?",
         "options": [
-            "Give way sign",
-            "Yield sign",
-            "Stop sign",
-            "Both A and B"
+            "Use parking brake.",
+            "Use parking brake and front wheels facing forward.",
+            "Front wheel to the left.",
+            "Use parking brake and front wheels facing right."
         ],
         "correctIndex": 3,
-        "explanation": "This is a yield sign which is an upside-down triangle. It ensures that you have to wait until the traffic at intersection gets clear along with this if it's necessary than stop your vehicle."
+        "image": "",
+        "explanation": "Turn your front wheel to the right side and pull your parking brake while parking on a slope."
     },
     {
-        "image": "/assets/images/15.png",
+        "question": "Why you should drive at 20-30 km/h lower than maximum speed at night?",
         "options": [
-            "Keep right on multilane road, slower traffic",
-            "Keep left on multilane road, slower traffic",
-            "Keep your vehicle on right and let slower traffic pass from left",
-            "None of these"
+            "Because you cannot see clearly at a distance.",
+            "Driving at night is actually not dangerous, you should go at maximum speed.",
+            "Road is more crowded at night.",
+            "The lights from the front makes it difficult to see at night."
         ],
         "correctIndex": 0,
-        "explanation": "On multi-lane road drivers must keep their vehicle on right lane as the traffic is slow there."
+        "image": "",
+        "explanation": "You should drive slow at night because of less visibility."
     },
     {
-        "image": "/assets/images/16.png",
+        "question": "What does a broken center line on roadway imply?",
         "options": [
-            "Two way left turn lane only",
-            "One way left turn lane only",
-            "Both A and B",
-            "None of these"
-        ],
-        "correctIndex": 0,
-        "explanation": "This is a dual left turn sign which means that in any of the direction there is only left turn."
-    },
-    {
-        "image": "/assets/images/17.png",
-        "options": [
-            "Do not turn left at red light",
-            "Do not turn right at red light",
-            "Do not go straight at red light",
-            "None of these"
+            "Do not pass if it is a two-lane road.",
+            "You can overtake if way is clear.",
+            "Both A and B.",
+            "None of these."
         ],
         "correctIndex": 1,
-        "explanation": "This sign represents that drivers must not turn right when the traffic light is red at the intersection."
+        "image": "",
+        "explanation": "A broken line on the center of the road means you can overtake if it is safe."
     },
     {
-        "image": "/assets/images/18.png",
+        "question": "How far should you park to a fire hydrant?",
         "options": [
-            "Truck may enter from left side",
-            "Truck bridge entrance from right side",
-            "Fire truck entrance",
-            "None of the above"
+            "2 meters.",
+            "3 meters.",
+            "4 meters.",
+            "5 meters."
         ],
         "correctIndex": 1,
-        "explanation": "This sign shows that the trucks are allowed to enter from the right side of the lane."
+        "image": "",
+        "explanation": "You should park at least 3 meters away from a fire hydrant which will give proper space to the firetruck."
     },
     {
-        "image": "/assets/images/19.png",
+        "question": "What is the best way to stop on a snowy road?",
         "options": [
-            "Wild animals cross at this road",
-            "Deer crossing area",
-            "Both A and B",
-            "None of the above"
+            "Use emergency brakes.",
+            "Hit brakes with maximum force.",
+            "Carefully hit brakes while keeping vehicle under control.",
+            "Both A and B."
         ],
         "correctIndex": 2,
-        "explanation": "This sign indicates warning regarding the regular crossing of lanes by deer."
+        "image": "",
+        "explanation": "Keep the vehicle under control and slowly hit brakes while slipping on a snowy road."
     },
     {
-        "image": "/assets/images/20.png",
+        "question": "When should an individual use parking lights?",
         "options": [
-            "Survey ahead",
-            "Road work temporary sign",
-            "Cement ahead",
-            "Road closed ahead"
+            "During heavy fog.",
+            "During rain.",
+            "Parking only.",
+            "All of the above."
+        ],
+        "correctIndex": 2,
+        "image": "",
+        "explanation": "Parking lights should be used while parking your vehicle."
+    },
+    {
+        "question": "What does a combination of half solid and half broken line mean on the road?",
+        "options": [
+            "You can pass but it is unsafe.",
+            "It means no passing at night.",
+            "It is safe to pass.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "image": "",
+        "explanation": "It means that passing is allowed but it is unsafe on this road."
+    },
+    {
+        "question": "Stay on the right side of the road unless:",
+        "options": [
+            "You are driving in snow.",
+            "You want to pass another vehicle.",
+            "You are driving in rain.",
+            "Both A and C."
+        ],
+        "correctIndex": 3,
+        "image": "",
+        "explanation": "You should stay on the right side of the road unless it's raining or snowing."
+    },
+    {
+        "question": "Low beam headlights should be used at night on a highway only if:",
+        "options": [
+            "Do not use low beam headlights on a highway at night.",
+            "You are just behind another vehicle.",
+            "You can use any light on a highway.",
+            "Both A and B."
         ],
         "correctIndex": 1,
-        "explanation": "It indicates that some work is going on road for short duration."
+        "image": "",
+        "explanation": "Do not use high beam lights behind another vehicle while driving, the vehicle in the front will not be able to see properly because of excessive light."
+    },
+    {
+        "question": "What is the safe distance from vehicle in front at 50km/h?",
+        "options": [
+            "1 car length.",
+            "2 car length.",
+            "3 car length.",
+            "4 car length."
+        ],
+        "correctIndex": 2,
+        "image": "",
+        "explanation": "You should keep you car at a minimum of 3 cars distance from the car in the front so you have enough time to apply brakes."
+    },
+    {
+        "question": "What will an intelligent driver do?",
+        "options": [
+            "Drive fast on a snowy road.",
+            "Talk over smartphone while driving.",
+            "Always give his right of way to another driver.",
+            "Be considerate of other drivers and prepared for difficult situations."
+        ],
+        "correctIndex": 3,
+        "image": "",
+        "explanation": "You should always drive carefully and be ready to face problems on the road."
+    },
+    {
+        "question": "If your car stops working properly while driving on a highway, what should you do?",
+        "options": [
+            "Move to the right lane and drive slowly.",
+            "Move to the left lane and drive slowly.",
+            "Press brakes and completely stop in the middle of the highway.",
+            "Park your vehicle off the roadway and turn on hazard signals."
+        ],
+        "correctIndex": 3,
+        "image": "",
+        "explanation": "You should come to a complete stop and park you car off the roadway and turn on hazard lights."
+    },
+    {
+        "question": "If you are on medication what should you do before driving a vehicle?",
+        "options": [
+            "Take medication before driving.",
+            "Ask your doctor about the effect of medication on your body when you drive.",
+            "Drive slow and carefully.",
+            "Don't drive while you are on medication."
+        ],
+        "correctIndex": 1,
+        "image": "",
+        "explanation": "Whenever you get medication from a doctor, ask the doctor about the effect of that medicine while driving."
+    },
+    {
+        "question": "If you are convicted of driving with suspended license, what will happen to you?",
+        "options": [
+            "Vehicle impounded for 30 days.",
+            "Vehicle impounded for 45 days.",
+            "Vehicle impounded for 60 days.",
+            "Vehicle impounded for 90 days."
+        ],
+        "correctIndex": 1,
+        "image": "",
+        "explanation": "If you are convicted of driving with a suspended license, Vehicle will impounded for 45 days."
     }
 ]
