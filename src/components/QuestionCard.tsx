@@ -95,12 +95,10 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
 
     const passed = score >= 16;
 
-    // const getImagePlaceholder = (index: number) => {
-    //     return `/assets/images/${index + 1}.png`;
-    // };
-
     return (
-        <div className="max-w-4xl mx-auto py-8 px-6 bg-white rounded-2xl shadow-lg relative">
+        <div className={`max-w-4xl mx-auto py-8 px-6 relative ${
+            showResult ? '' : 'bg-white rounded-2xl shadow-lg'
+        }`}>
             {
                 !showResult && (
                     <div className="absolute top-4 right-4 bg-blue-100 p-2 rounded-lg shadow-2xl text-blue-800 text-sm z-10 ">
@@ -111,16 +109,14 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
             }
 
             {showResult ? (
-                <div>
                     <G1Result
                         score={score}    
                         questions={questions}                    
                         passed={passed}
                         id={id}
                     />
-                </div>
             ) : (
-                <div ref={questionRef} className="flex gap-6 flex-col md:flex-row">
+                <div ref={questionRef} className={`flex gap-6 flex-col md:flex-row ${!question.image ? 'w-4/5' : ''}`}>
                     <div className="flex-1 space-y-4">
                         <h2 className="text-xl font-bold">{question.question}</h2>
                         <ul className="space-y-2">

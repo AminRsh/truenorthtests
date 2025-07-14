@@ -40,7 +40,7 @@ export default function G1Result({ score, questions, passed, id}: G1ResultProps)
                         </button>
                     </Link>
 
-                    <Link href={`/G1/${Number(id)}`}>
+                    <Link href={`/G1/${id}?reset=true`}>
                         <button className="mt-2 px-5 py-2.5 rounded-xl transition bg-red-600 text-white hover:bg-red-700">
                             Try Again
                         </button>
