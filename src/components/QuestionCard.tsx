@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useRef, useState, useEffect } from "react";
 import gsap from "gsap";
@@ -79,7 +79,6 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                     if (nextIndex < questions.length) {
                         setCurrentIndex(nextIndex);
 
-
                         gsap.fromTo(
                             questionRef.current,
                             { opacity: 0, y: 30 },
@@ -96,16 +95,13 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
     const passed = score >= 16;
 
     return (
-        <div className={`max-w-4xl mx-auto py-8 px-6 relative ${showResult ? '' : 'bg-white rounded-2xl shadow-lg'
-            }`}>
-            {
-                !showResult && (
-                    <div className="absolute top-4 right-4 bg-blue-100 p-2 rounded-lg shadow-2xl text-blue-800 text-sm z-10 ">
-                        Question: {currentIndex + 1}/20
-                        <div className="text-sm">Correct: {score}/{answeredQuestions}</div>
-                    </div>
-                )
-            }
+        <div className={`max-w-4xl mx-auto py-8 px-6 relative ${showResult ? '' : 'bg-white rounded-2xl shadow-lg'}`}>
+            {!showResult && (
+                <div className="absolute top-4 right-4 bg-blue-100 p-2 rounded-lg shadow-2xl text-blue-800 text-sm z-10 sm:static sm:bg-transparent sm:shadow-none sm:text-right sm:mt-0">
+                    Question: {currentIndex + 1}/20
+                    <div className="text-sm">Correct: {score}/{answeredQuestions}</div>
+                </div>
+            )}
 
             {showResult ? (
                 <G1Result
@@ -117,7 +113,7 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
             ) : (
                 <div ref={questionRef} className={`flex gap-6 flex-col md:flex-row ${!question.image ? 'w-4/5' : ''}`}>
                     <div className="flex-1 space-y-4">
-                        <h2 className="text-xl font-bold">{question.question}</h2>
+                        <h2 className="text-xl font-bold mt-10 sm:mt-0">{question.question}</h2>
                         <ul className="space-y-2">
                             {question.options.map((option, index) => (
                                 <li
@@ -142,15 +138,6 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                                 Submit
                             </button>
                         )}
-
-                        {/* {process.env.NODE_ENV === 'development' && (
-                            <button
-                                onClick={() => setShowResult(true)}
-                                className="fixed top-4 right-4 bg-red-500 text-white px-4 py-2 rounded z-50"
-                            >
-                                Debug: Show Results
-                            </button>
-                        )} */}
 
                         {isSubmitted && (
                             <div className="mt-4">
@@ -186,20 +173,21 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                                 )}
                             </div>
                         )}
-
                     </div>
 
-                    {question.image && (<div className="flex items-center justify-center ">
-                        <Image
-                            src={question.image}
-                            alt="Traffic Sign"
-                            className="object-cover rounded-lg shadow-2xl"
-                            width={400}
-                            height={300}
-                            style={{ height: 'auto' }}
-                            priority
-                        />
-                    </div>)}
+                    {question.image && (
+                        <div className="flex items-center justify-center">
+                            <Image
+                                src={question.image}
+                                alt="Traffic Sign"
+                                className="object-cover rounded-lg shadow-2xl"
+                                width={400}
+                                height={300}
+                                style={{ height: 'auto' }}
+                                priority
+                            />
+                        </div>
+                    )}
                 </div>
             )}
         </div>
