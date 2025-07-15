@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
-import { ThemeProvider } from "next-themes";
+// import { ThemeProvider } from "next-themes";
 
 
 // const inter = Inter({
@@ -30,14 +30,14 @@ export default async function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       </head>
       <body className="relative">
-        <ThemeProvider
+        {/* <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-        >
+        > */}
           {children}
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
         <Script
           src="https://cdn.tailwindcss.com?plugins=forms,container-queries"
           strategy="afterInteractive"
