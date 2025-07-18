@@ -1,0 +1,242 @@
+[
+    {
+        "image": "/assets/images/test5/1.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "Left and right turn not allowed.",
+            "Do not go straight.",
+            "Do not reverse.",
+            "No vehicle allowed."
+        ],
+        "correctIndex": 0,
+        "explanation": "Turning left or right is prohibited."
+    },
+    {
+        "image": "/assets/images/test5/2.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "Right turn is allowed.",
+            "Left turn and going straight not allowed.",
+            "Both A and B.",
+            "Only going straight."
+        ],
+        "correctIndex": 2,
+        "explanation": "Taking a left turn or going straight is not allowed."
+    },
+    {
+        "image": "/assets/images/test5/3.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "Left turn is allowed.",
+            "Right turn and going straight not allowed.",
+            "Only going straight.",
+            "Both A and B."
+        ],
+        "correctIndex": 3,
+        "explanation": "Taking a right turn or going straight is not allowed."
+    },
+    {
+        "image": "/assets/images/test5/4.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "Exit the highway from left lane.",
+            "You may go straight.",
+            "Left turn only.",
+            "Curve in the road ahead."
+        ],
+        "correctIndex": 2,
+        "explanation": "Only left turn is allowed."
+    },
+    {
+        "image": "/assets/images/test5/5.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "You may turn right.",
+            "Go straight or turn left only.",
+            "Both A and B.",
+            "None of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "Only straight or left turn is permitted."
+    },
+    {
+        "image": "/assets/images/test5/6.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "You may turn left.",
+            "Go straight or turn right only.",
+            "Both A and B.",
+            "None of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "Only going straight or turning right is allowed."
+    },
+    {
+        "image": "/assets/images/test5/7.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "Only left and right turn allowed.",
+            "You may go straight.",
+            "Both A and B.",
+            "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "Only left and right turn is permitted."
+    },
+    {
+        "image": "/assets/images/test5/8.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "Only going left, right and straight is allowed.",
+            "You may go reverse on highway.",
+            "You are not allowed to take an exit.",
+            "None of the above"
+        ],
+        "correctIndex": 0,
+        "explanation": "Going Left, right and straight is permitted."
+    },
+    {
+        "image": "/assets/images/test5/9.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "Snowmobiles are not allowed on this road.",
+            "Snowmobiles allowed.",
+            "Watch out for snowmobiles.",
+            "Snowmobiles crossing ahead."
+        ],
+        "correctIndex": 0,
+        "explanation": "Snowmobiles are not allowed on this road, fine will be imposed if case of offence."
+    },
+    {
+        "image": "/assets/images/test5/10.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "Turning cyclists yield to vehicles.",
+            "Turning vehicles give way to cyclists.",
+            "All vehicles must share lane with cyclists.",
+            "Stop your vehicle for cyclists."
+        ],
+        "correctIndex": 1,
+        "explanation": "Cars that are about to take a turn must yield to cyclists."
+    },
+    {
+        "image": "/assets/images/test5/11.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "Cars must stop when they spot a bicycle.",
+            "Bicycle yield to cars sign.",
+            "Cars yield to bicycle sign.",
+            "None of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "Cyclist must give way to cars."
+    },
+    {
+        "image": "/assets/images/test5/12.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "Come to a complete stop when you see this sign.",
+            "Stop on the specified lane in case of red-light signal.",
+            "Slow down your vehicle when you approach this sign.",
+            "Stop your vehicle in any lane in case of red-light signal."
+        ],
+        "correctIndex": 1,
+        "explanation": "In case of red light signal, stop on the pointed lane."
+    },
+    {
+        "image": "/assets/images/test5/13.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "This is a yield sign.",
+            "Yield sign ahead.",
+            "Stop sign.",
+            "Stop sign ahead."
+        ],
+        "correctIndex": 1,
+        "explanation": "You have to give way to other vehicles, come to a complete stop if necessary."
+    },
+    {
+        "image": "/assets/images/test5/14.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "Vehicle may enter from left side.",
+            "Truck bridge entrance.",
+            "Fire truck entrance.",
+            "None of the above."
+        ],
+        "correctIndex": 2,
+        "explanation": "If the fire truck is shown on the left side, it means fire truck entrance is from the left side."
+    },
+    {
+        "image": "/assets/images/test5/15.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "No passing at all times.",
+            "No passing when lights are flashing.",
+            "Passing is allowed.",
+            "Two vehicles are not allowed on the bridge at the same time."
+        ],
+        "correctIndex": 1,
+        "explanation": "Do not overtake another vehicle when lights are flashing."
+    },
+    {
+        "image": "/assets/images/test5/16.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "Narrow bridge ahead.",
+            "Pavement narrows down ahead.",
+            "Narrow bridge ahead temporary sign.",
+            "Pavement narrows down ahead temporary sign."
+        ],
+        "correctIndex": 2,
+        "explanation": "This is a narrow bridge sign for a limited period of time."
+    },
+    {
+        "image": "/assets/images/test5/17.jpg",
+        "question": "What does this sign mean?",
+        "options": [
+            "Rough pavement for 15km.",
+            "Road blocked after 15km.",
+            "Come to a complete stop.",
+            "Both B and C."
+        ],
+        "correctIndex": 0,
+        "explanation": "The pavement is in a bad condition for 15km."
+    },
+    {
+        "image": "/assets/images/test5/18.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "Only motorcycle allowed.",
+            "No passing allowed.",
+            "Cars and bicycle come to a complete stop.",
+            "Cars and bicycle are prohibited."
+        ],
+        "correctIndex": 3,
+        "explanation": "Bicycle and cars are not allowed on this road."
+    },
+    {
+        "image": "/assets/images/test5/19.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "This sign should be put on a slow moving vehicle.",
+            "This means that there are slow moving vehicle on this road, drive carefully.",
+            "Only slow moving vehicle allowed on this road.",
+            "None of the above"
+        ],
+        "correctIndex": 1,
+        "explanation": "There are vehicles on this road that moves at a speed of less than 40km/h."
+    },
+    {
+        "image": "/assets/images/test5/20.jpg",
+        "question": "What does this road sign mean?",
+        "options": [
+            "Pedestrian crossing regulatory sign ahead.",
+            "School zone.",
+            "Drive carefully, watch out for pedestrians.",
+            "Both A and C."
+        ],
+        "correctIndex": 3,
+        "explanation": "There is a pedestrian crossing sign ahead."
+    }
+]

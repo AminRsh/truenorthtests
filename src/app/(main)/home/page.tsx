@@ -135,20 +135,19 @@ export default async function Home() {
             {/* Hero Section with Video Background */}
             <section className="relative overflow-hidden">
               <div className="absolute inset-0 z-0">
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="w-full h-full object-cover"
-                  poster="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                >
-                  <source src="https://player.vimeo.com/external/371433846.sd.mp4?s=236234c6c98e5b8d6c5a1e6f1c2e3d4f5g6h7i8j&profile_id=164&oauth2_token_id=57447761" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 via-blue-800/60 to-purple-900/70"></div>
-              </div>
-
+    <video
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="w-full h-full object-cover"
+      poster="https://images.unsplash.com/photo-1434030216411-0b793f4b4173"
+    >
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 via-blue-800/60 to-purple-900/70"></div>
+  </div>
               <div className="relative z-10 px-6 md:px-40 py-20 md:py-32">
                 <div className="max-w-4xl mx-auto text-center">
                   <h2 className="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em] mb-6 animate-fade-in">

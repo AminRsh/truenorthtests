@@ -7,6 +7,8 @@ import test5 from "@/data/GOne5.json";
 import test6 from "@/data/GOne6.json";
 import test7 from "@/data/GOne7.json";
 import test8 from "@/data/GOne8.json";
+import test9 from "@/data/GOne9.json";
+import test10 from "@/data/GOne10.json";
 import { Question } from "./types";
 
 const testMap: { [key: string]: Question[] } = {
@@ -18,6 +20,8 @@ const testMap: { [key: string]: Question[] } = {
     "6": test6,
     "7": test7,
     "8": test8,
+    "9": test9,
+    "10": test10,
 };
 
 export const getTestData = async (id: string) => {

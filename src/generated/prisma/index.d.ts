@@ -1194,7 +1194,7 @@ export namespace Prisma {
     id: string
     username: string
     displayName: string
-    email: string | null
+    email: string
     passwordHash: string | null
     avatarUrl: string | null
     createdAt: Date
@@ -1267,7 +1267,7 @@ export namespace Prisma {
       id: string
       username: string
       displayName: string
-      email: string | null
+      email: string
       passwordHash: string | null
       avatarUrl: string | null
       createdAt: Date
@@ -4065,7 +4065,7 @@ export namespace Prisma {
     id?: StringFilter<"User"> | string
     username?: StringFilter<"User"> | string
     displayName?: StringFilter<"User"> | string
-    email?: StringNullableFilter<"User"> | string | null
+    email?: StringFilter<"User"> | string
     passwordHash?: StringNullableFilter<"User"> | string | null
     avatarUrl?: StringNullableFilter<"User"> | string | null
     createdAt?: DateTimeFilter<"User"> | Date | string
@@ -4077,7 +4077,7 @@ export namespace Prisma {
     id?: SortOrder
     username?: SortOrder
     displayName?: SortOrder
-    email?: SortOrderInput | SortOrder
+    email?: SortOrder
     passwordHash?: SortOrderInput | SortOrder
     avatarUrl?: SortOrderInput | SortOrder
     createdAt?: SortOrder
@@ -4104,7 +4104,7 @@ export namespace Prisma {
     id?: SortOrder
     username?: SortOrder
     displayName?: SortOrder
-    email?: SortOrderInput | SortOrder
+    email?: SortOrder
     passwordHash?: SortOrderInput | SortOrder
     avatarUrl?: SortOrderInput | SortOrder
     createdAt?: SortOrder
@@ -4120,7 +4120,7 @@ export namespace Prisma {
     id?: StringWithAggregatesFilter<"User"> | string
     username?: StringWithAggregatesFilter<"User"> | string
     displayName?: StringWithAggregatesFilter<"User"> | string
-    email?: StringNullableWithAggregatesFilter<"User"> | string | null
+    email?: StringWithAggregatesFilter<"User"> | string
     passwordHash?: StringNullableWithAggregatesFilter<"User"> | string | null
     avatarUrl?: StringNullableWithAggregatesFilter<"User"> | string | null
     createdAt?: DateTimeWithAggregatesFilter<"User"> | Date | string
@@ -4250,7 +4250,7 @@ export namespace Prisma {
     id: string
     username: string
     displayName: string
-    email?: string | null
+    email: string
     passwordHash?: string | null
     avatarUrl?: string | null
     createdAt?: Date | string
@@ -4262,7 +4262,7 @@ export namespace Prisma {
     id: string
     username: string
     displayName: string
-    email?: string | null
+    email: string
     passwordHash?: string | null
     avatarUrl?: string | null
     createdAt?: Date | string
@@ -4274,7 +4274,7 @@ export namespace Prisma {
     id?: StringFieldUpdateOperationsInput | string
     username?: StringFieldUpdateOperationsInput | string
     displayName?: StringFieldUpdateOperationsInput | string
-    email?: NullableStringFieldUpdateOperationsInput | string | null
+    email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -4286,7 +4286,7 @@ export namespace Prisma {
     id?: StringFieldUpdateOperationsInput | string
     username?: StringFieldUpdateOperationsInput | string
     displayName?: StringFieldUpdateOperationsInput | string
-    email?: NullableStringFieldUpdateOperationsInput | string | null
+    email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -4298,7 +4298,7 @@ export namespace Prisma {
     id: string
     username: string
     displayName: string
-    email?: string | null
+    email: string
     passwordHash?: string | null
     avatarUrl?: string | null
     createdAt?: Date | string
@@ -4308,7 +4308,7 @@ export namespace Prisma {
     id?: StringFieldUpdateOperationsInput | string
     username?: StringFieldUpdateOperationsInput | string
     displayName?: StringFieldUpdateOperationsInput | string
-    email?: NullableStringFieldUpdateOperationsInput | string | null
+    email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -4318,7 +4318,7 @@ export namespace Prisma {
     id?: StringFieldUpdateOperationsInput | string
     username?: StringFieldUpdateOperationsInput | string
     displayName?: StringFieldUpdateOperationsInput | string
-    email?: NullableStringFieldUpdateOperationsInput | string | null
+    email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -5010,7 +5010,7 @@ export namespace Prisma {
     id: string
     username: string
     displayName: string
-    email?: string | null
+    email: string
     passwordHash?: string | null
     avatarUrl?: string | null
     createdAt?: Date | string
@@ -5021,7 +5021,7 @@ export namespace Prisma {
     id: string
     username: string
     displayName: string
-    email?: string | null
+    email: string
     passwordHash?: string | null
     avatarUrl?: string | null
     createdAt?: Date | string
@@ -5048,7 +5048,7 @@ export namespace Prisma {
     id?: StringFieldUpdateOperationsInput | string
     username?: StringFieldUpdateOperationsInput | string
     displayName?: StringFieldUpdateOperationsInput | string
-    email?: NullableStringFieldUpdateOperationsInput | string | null
+    email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -5059,7 +5059,7 @@ export namespace Prisma {
     id?: StringFieldUpdateOperationsInput | string
     username?: StringFieldUpdateOperationsInput | string
     displayName?: StringFieldUpdateOperationsInput | string
-    email?: NullableStringFieldUpdateOperationsInput | string | null
+    email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -5070,7 +5070,7 @@ export namespace Prisma {
     id: string
     username: string
     displayName: string
-    email?: string | null
+    email: string
     passwordHash?: string | null
     avatarUrl?: string | null
     createdAt?: Date | string
@@ -5081,7 +5081,7 @@ export namespace Prisma {
     id: string
     username: string
     displayName: string
-    email?: string | null
+    email: string
     passwordHash?: string | null
     avatarUrl?: string | null
     createdAt?: Date | string
@@ -5108,7 +5108,7 @@ export namespace Prisma {
     id?: StringFieldUpdateOperationsInput | string
     username?: StringFieldUpdateOperationsInput | string
     displayName?: StringFieldUpdateOperationsInput | string
-    email?: NullableStringFieldUpdateOperationsInput | string | null
+    email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -5119,7 +5119,7 @@ export namespace Prisma {
     id?: StringFieldUpdateOperationsInput | string
     username?: StringFieldUpdateOperationsInput | string
     displayName?: StringFieldUpdateOperationsInput | string
-    email?: NullableStringFieldUpdateOperationsInput | string | null
+    email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string

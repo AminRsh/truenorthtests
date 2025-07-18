@@ -97,9 +97,24 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
     return (
         <div className={`max-w-4xl mx-auto py-8 px-6 relative ${showResult ? '' : 'bg-white rounded-2xl shadow-lg'}`}>
             {!showResult && (
-                <div className="absolute top-4 right-4 bg-blue-100 p-2 rounded-lg shadow-2xl text-blue-800 text-sm z-10 sm:static sm:bg-transparent sm:shadow-none sm:text-right sm:mt-0">
-                    Question: {currentIndex + 1}/20
-                    <div className="text-sm">Correct: {score}/{answeredQuestions}</div>
+                <div className="
+                    fixed top-4 right-4 z-50
+                    sm:static sm:mb-4
+                    md:absolute md:top-4 md:right-4 md:mb-0
+                    bg-gray-500 text-white
+                    p-3 rounded-lg shadow-lg
+                    text-sm font-medium
+                    min-w-[120px]
+                    backdrop-blur-sm
+                ">
+                    <div className="text-center">
+                        <div className="text-xs opacity-90">Question</div>
+                        <div className="font-semibold">{currentIndex + 1}/20</div>
+                    </div>
+                    <div className="text-center mt-1 pt-1 border-t border-blue-400">
+                        <div className="text-xs opacity-90">Correct</div>
+                        <div className="font-semibold">{score}/{answeredQuestions}</div>
+                    </div>
                 </div>
             )}
 
@@ -111,9 +126,9 @@ export default function QuestionCard({ questions }: { questions: Question[] }) {
                     id={id}
                 />
             ) : (
-                <div ref={questionRef} className={`flex gap-6 flex-col md:flex-row ${!question.image ? 'w-4/5' : ''}`}>
+                <div ref={questionRef} className={`flex gap-6 flex-col md:flex-row ${!question.image ? 'w-full sm:w-4/5' : ''}`}>
                     <div className="flex-1 space-y-4">
-                        <h2 className="text-xl font-bold mt-10 sm:mt-0">{question.question}</h2>
+                        <h2 className="text-xl font-bold mt-12 sm:mt-0 md:mt-10 ">{question.question}</h2>
                         <ul className="space-y-2">
                             {question.options.map((option, index) => (
                                 <li

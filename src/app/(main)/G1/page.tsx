@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Car, BookOpen, Trophy, Star, Clock, CheckCircle, ArrowRight, Zap } from 'lucide-react';
 
 export default function Page() {
-    const testCount = 8;
+    const testCount = 10;
 
     const testData = [
         { difficulty: 'Beginner', time: '15 min', questions: 20, icon: '🟢' },
@@ -11,6 +11,8 @@ export default function Page() {
         { difficulty: 'Intermediate', time: '18 min', questions: 25, icon: '🟡' },
         { difficulty: 'Advanced', time: '20 min', questions: 30, icon: '🟠' },
         { difficulty: 'Advanced', time: '20 min', questions: 30, icon: '🟠' },
+        { difficulty: 'Expert', time: '25 min', questions: 35, icon: '🔴' },
+        { difficulty: 'Expert', time: '25 min', questions: 35, icon: '🔴' },
         { difficulty: 'Expert', time: '25 min', questions: 35, icon: '🔴' },
         { difficulty: 'Expert', time: '25 min', questions: 35, icon: '🔴' },
     ];
