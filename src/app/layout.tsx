@@ -11,6 +11,7 @@ import Script from 'next/script';
 // })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://truenorthtests-sandy.vercel.app/home'),
   title: "Your Path to Passing",
   description: "Study smart, track your progress, and get exam-ready with real sample questions.",
 };

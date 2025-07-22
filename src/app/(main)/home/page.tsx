@@ -143,7 +143,7 @@ export default async function Home() {
       className="w-full h-full object-cover"
       poster="https://images.unsplash.com/photo-1434030216411-0b793f4b4173"
     >
-      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      <source src="/assets/videos/studying.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 via-blue-800/60 to-purple-900/70"></div>
@@ -158,7 +158,7 @@ export default async function Home() {
                     Join over 10,000 successful students who aced their G1, ACT, GRE, and GMAT tests with our comprehensive, AI-powered study platform.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <Link href="/signup" className="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-8 bg-gradient-to-r from-[#1980e6] to-[#1570d1] hover:from-[#1570d1] hover:to-[#1260c1] text-white text-base font-bold leading-normal tracking-[0.015em] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105">
+                    <Link href="/signup" className="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-8 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white text-base font-bold leading-normal tracking-[0.015em] transition-all duration-300 border border-white/30 hover:border-white/50">
                       <span className="truncate">Start Free Trial</span>
                     </Link>
                     <Link href="/demo" className="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-14 px-8 bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white text-base font-bold leading-normal tracking-[0.015em] transition-all duration-300 border border-white/30 hover:border-white/50">
