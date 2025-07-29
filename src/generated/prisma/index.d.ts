@@ -1062,6 +1062,7 @@ export namespace Prisma {
     email: string | null
     passwordHash: string | null
     avatarUrl: string | null
+    googleId: string | null
     createdAt: Date | null
   }
 
@@ -1072,6 +1073,7 @@ export namespace Prisma {
     email: string | null
     passwordHash: string | null
     avatarUrl: string | null
+    googleId: string | null
     createdAt: Date | null
   }
 
@@ -1082,6 +1084,7 @@ export namespace Prisma {
     email: number
     passwordHash: number
     avatarUrl: number
+    googleId: number
     createdAt: number
     _all: number
   }
@@ -1094,6 +1097,7 @@ export namespace Prisma {
     email?: true
     passwordHash?: true
     avatarUrl?: true
+    googleId?: true
     createdAt?: true
   }
 
@@ -1104,6 +1108,7 @@ export namespace Prisma {
     email?: true
     passwordHash?: true
     avatarUrl?: true
+    googleId?: true
     createdAt?: true
   }
 
@@ -1114,6 +1119,7 @@ export namespace Prisma {
     email?: true
     passwordHash?: true
     avatarUrl?: true
+    googleId?: true
     createdAt?: true
     _all?: true
   }
@@ -1197,6 +1203,7 @@ export namespace Prisma {
     email: string
     passwordHash: string | null
     avatarUrl: string | null
+    googleId: string | null
     createdAt: Date
     _count: UserCountAggregateOutputType | null
     _min: UserMinAggregateOutputType | null
@@ -1224,6 +1231,7 @@ export namespace Prisma {
     email?: boolean
     passwordHash?: boolean
     avatarUrl?: boolean
+    googleId?: boolean
     createdAt?: boolean
     sessions?: boolean | User$sessionsArgs<ExtArgs>
     subscription?: boolean | User$subscriptionArgs<ExtArgs>
@@ -1237,6 +1245,7 @@ export namespace Prisma {
     email?: boolean
     passwordHash?: boolean
     avatarUrl?: boolean
+    googleId?: boolean
     createdAt?: boolean
   }, ExtArgs["result"]["user"]>
 
@@ -1247,6 +1256,7 @@ export namespace Prisma {
     email?: boolean
     passwordHash?: boolean
     avatarUrl?: boolean
+    googleId?: boolean
     createdAt?: boolean
   }
 
@@ -1270,6 +1280,7 @@ export namespace Prisma {
       email: string
       passwordHash: string | null
       avatarUrl: string | null
+      googleId: string | null
       createdAt: Date
     }, ExtArgs["result"]["user"]>
     composites: {}
@@ -1672,6 +1683,7 @@ export namespace Prisma {
     readonly email: FieldRef<"User", 'String'>
     readonly passwordHash: FieldRef<"User", 'String'>
     readonly avatarUrl: FieldRef<"User", 'String'>
+    readonly googleId: FieldRef<"User", 'String'>
     readonly createdAt: FieldRef<"User", 'DateTime'>
   }
     
@@ -3947,6 +3959,7 @@ export namespace Prisma {
     email: 'email',
     passwordHash: 'passwordHash',
     avatarUrl: 'avatarUrl',
+    googleId: 'googleId',
     createdAt: 'createdAt'
   };
 
@@ -4068,6 +4081,7 @@ export namespace Prisma {
     email?: StringFilter<"User"> | string
     passwordHash?: StringNullableFilter<"User"> | string | null
     avatarUrl?: StringNullableFilter<"User"> | string | null
+    googleId?: StringNullableFilter<"User"> | string | null
     createdAt?: DateTimeFilter<"User"> | Date | string
     sessions?: SessionListRelationFilter
     subscription?: XOR<UserSubscriptionNullableRelationFilter, UserSubscriptionWhereInput> | null
@@ -4080,6 +4094,7 @@ export namespace Prisma {
     email?: SortOrder
     passwordHash?: SortOrderInput | SortOrder
     avatarUrl?: SortOrderInput | SortOrder
+    googleId?: SortOrderInput | SortOrder
     createdAt?: SortOrder
     sessions?: SessionOrderByRelationAggregateInput
     subscription?: UserSubscriptionOrderByWithRelationInput
@@ -4089,6 +4104,7 @@ export namespace Prisma {
     id?: string
     username?: string
     email?: string
+    googleId?: string
     AND?: UserWhereInput | UserWhereInput[]
     OR?: UserWhereInput[]
     NOT?: UserWhereInput | UserWhereInput[]
@@ -4098,7 +4114,7 @@ export namespace Prisma {
     createdAt?: DateTimeFilter<"User"> | Date | string
     sessions?: SessionListRelationFilter
     subscription?: XOR<UserSubscriptionNullableRelationFilter, UserSubscriptionWhereInput> | null
-  }, "id" | "username" | "email">
+  }, "id" | "username" | "email" | "googleId">
 
   export type UserOrderByWithAggregationInput = {
     id?: SortOrder
@@ -4107,6 +4123,7 @@ export namespace Prisma {
     email?: SortOrder
     passwordHash?: SortOrderInput | SortOrder
     avatarUrl?: SortOrderInput | SortOrder
+    googleId?: SortOrderInput | SortOrder
     createdAt?: SortOrder
     _count?: UserCountOrderByAggregateInput
     _max?: UserMaxOrderByAggregateInput
@@ -4123,6 +4140,7 @@ export namespace Prisma {
     email?: StringWithAggregatesFilter<"User"> | string
     passwordHash?: StringNullableWithAggregatesFilter<"User"> | string | null
     avatarUrl?: StringNullableWithAggregatesFilter<"User"> | string | null
+    googleId?: StringNullableWithAggregatesFilter<"User"> | string | null
     createdAt?: DateTimeWithAggregatesFilter<"User"> | Date | string
   }
 
@@ -4253,6 +4271,7 @@ export namespace Prisma {
     email: string
     passwordHash?: string | null
     avatarUrl?: string | null
+    googleId?: string | null
     createdAt?: Date | string
     sessions?: SessionCreateNestedManyWithoutUserInput
     subscription?: UserSubscriptionCreateNestedOneWithoutUserInput
@@ -4265,6 +4284,7 @@ export namespace Prisma {
     email: string
     passwordHash?: string | null
     avatarUrl?: string | null
+    googleId?: string | null
     createdAt?: Date | string
     sessions?: SessionUncheckedCreateNestedManyWithoutUserInput
     subscription?: UserSubscriptionUncheckedCreateNestedOneWithoutUserInput
@@ -4277,6 +4297,7 @@ export namespace Prisma {
     email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     sessions?: SessionUpdateManyWithoutUserNestedInput
     subscription?: UserSubscriptionUpdateOneWithoutUserNestedInput
@@ -4289,6 +4310,7 @@ export namespace Prisma {
     email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     sessions?: SessionUncheckedUpdateManyWithoutUserNestedInput
     subscription?: UserSubscriptionUncheckedUpdateOneWithoutUserNestedInput
@@ -4301,6 +4323,7 @@ export namespace Prisma {
     email: string
     passwordHash?: string | null
     avatarUrl?: string | null
+    googleId?: string | null
     createdAt?: Date | string
   }
 
@@ -4311,6 +4334,7 @@ export namespace Prisma {
     email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
@@ -4321,6 +4345,7 @@ export namespace Prisma {
     email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
   }
 
@@ -4516,6 +4541,7 @@ export namespace Prisma {
     email?: SortOrder
     passwordHash?: SortOrder
     avatarUrl?: SortOrder
+    googleId?: SortOrder
     createdAt?: SortOrder
   }
 
@@ -4526,6 +4552,7 @@ export namespace Prisma {
     email?: SortOrder
     passwordHash?: SortOrder
     avatarUrl?: SortOrder
+    googleId?: SortOrder
     createdAt?: SortOrder
   }
 
@@ -4536,6 +4563,7 @@ export namespace Prisma {
     email?: SortOrder
     passwordHash?: SortOrder
     avatarUrl?: SortOrder
+    googleId?: SortOrder
     createdAt?: SortOrder
   }
 
@@ -5013,6 +5041,7 @@ export namespace Prisma {
     email: string
     passwordHash?: string | null
     avatarUrl?: string | null
+    googleId?: string | null
     createdAt?: Date | string
     subscription?: UserSubscriptionCreateNestedOneWithoutUserInput
   }
@@ -5024,6 +5053,7 @@ export namespace Prisma {
     email: string
     passwordHash?: string | null
     avatarUrl?: string | null
+    googleId?: string | null
     createdAt?: Date | string
     subscription?: UserSubscriptionUncheckedCreateNestedOneWithoutUserInput
   }
@@ -5051,6 +5081,7 @@ export namespace Prisma {
     email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     subscription?: UserSubscriptionUpdateOneWithoutUserNestedInput
   }
@@ -5062,6 +5093,7 @@ export namespace Prisma {
     email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     subscription?: UserSubscriptionUncheckedUpdateOneWithoutUserNestedInput
   }
@@ -5073,6 +5105,7 @@ export namespace Prisma {
     email: string
     passwordHash?: string | null
     avatarUrl?: string | null
+    googleId?: string | null
     createdAt?: Date | string
     sessions?: SessionCreateNestedManyWithoutUserInput
   }
@@ -5084,6 +5117,7 @@ export namespace Prisma {
     email: string
     passwordHash?: string | null
     avatarUrl?: string | null
+    googleId?: string | null
     createdAt?: Date | string
     sessions?: SessionUncheckedCreateNestedManyWithoutUserInput
   }
@@ -5111,6 +5145,7 @@ export namespace Prisma {
     email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     sessions?: SessionUpdateManyWithoutUserNestedInput
   }
@@ -5122,6 +5157,7 @@ export namespace Prisma {
     email?: StringFieldUpdateOperationsInput | string
     passwordHash?: NullableStringFieldUpdateOperationsInput | string | null
     avatarUrl?: NullableStringFieldUpdateOperationsInput | string | null
+    googleId?: NullableStringFieldUpdateOperationsInput | string | null
     createdAt?: DateTimeFieldUpdateOperationsInput | Date | string
     sessions?: SessionUncheckedUpdateManyWithoutUserNestedInput
   }

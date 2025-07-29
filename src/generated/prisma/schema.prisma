@@ -15,6 +15,7 @@ model User {
   email        String            @unique
   passwordHash String?
   avatarUrl    String?
+  googleId     String?           @unique
   sessions     Session[]
   subscription UserSubscription?
   createdAt    DateTime          @default(now())
