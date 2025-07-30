@@ -42,10 +42,20 @@ interface DatabaseUserAttributes {
     email: string;
 }
 
+const getBaseURL = () => {
+    if (process.env.VERCEL_URL) {
+        return `https://${process.env.VERCEL_URL}`;
+    }
+    if (process.env.NEXT_PUBLIC_BASE_URL) {
+        return process.env.NEXT_PUBLIC_BASE_URL;
+    }
+    return 'http://localhost:3000';
+};
+
 export const google = new Google(
     process.env.GOOGLE_CLIENT_ID!,
     process.env.GOOGLE_CLIENT_SECRET!,
-    `${process.env.NEXT_PUBLIC_BASE_URL}/api/auth/callback/google`,
+    `${getBaseURL()}/api/auth/callback/google`,
 );
 
 export const validateRequest = cache(
