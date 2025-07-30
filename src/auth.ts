@@ -42,20 +42,20 @@ interface DatabaseUserAttributes {
     email: string;
 }
 
-const getBaseURL = () => {
-    if (process.env.VERCEL_URL) {
-        return `https://${process.env.VERCEL_URL}`;
+const getRedirectURI = () => {
+    // In development
+    if (process.env.NODE_ENV === 'development') {
+        return 'http://localhost:3000/api/auth/callback/google';
     }
-    if (process.env.NEXT_PUBLIC_BASE_URL) {
-        return process.env.NEXT_PUBLIC_BASE_URL;
-    }
-    return 'http://localhost:3000';
+    
+    // In production, use the main domain
+    return 'https://truenorthtests.vercel.app/api/auth/callback/google';
 };
 
 export const google = new Google(
     process.env.GOOGLE_CLIENT_ID!,
     process.env.GOOGLE_CLIENT_SECRET!,
-    `${getBaseURL()}/api/auth/callback/google`,
+    getRedirectURI(),
 );
 
 export const validateRequest = cache(
