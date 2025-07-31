@@ -32,7 +32,6 @@ export async function GET(req: NextRequest) {
             storedCodeVerifier,
         );
 
-        // IMPORTANT: Call accessToken() as a method, not a property
         const accessToken = tokens.accessToken();
 
         const googleUser = await kyInstance
@@ -41,7 +40,12 @@ export async function GET(req: NextRequest) {
                     Authorization: `Bearer ${accessToken}`,
                 },
             })
-            .json<{ id: string; name: string; email: string }>();
+            .json<{ 
+                id: string; 
+                name: string; 
+                email: string;
+                picture: string;
+            }>();
 
         const existingUser = await prisma.user.findFirst({
             where: {
@@ -53,11 +57,14 @@ export async function GET(req: NextRequest) {
         });
 
         if (existingUser) {
-            // If user exists but doesn't have googleId, update it
+
             if (!existingUser.googleId) {
                 await prisma.user.update({
                     where: { id: existingUser.id },
-                    data: { googleId: googleUser.id }
+                    data: { 
+                        googleId: googleUser.id,
+                        avatarUrl: googleUser.picture,
+                    }
                 });
             }
             
@@ -87,6 +94,7 @@ export async function GET(req: NextRequest) {
                 displayName: googleUser.name,
                 googleId: googleUser.id,
                 email: googleUser.email,
+                avatarUrl: googleUser.picture,
             },
         });
 

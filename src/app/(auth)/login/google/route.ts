@@ -2,7 +2,6 @@ import { google } from "@/auth";
 import { generateCodeVerifier, generateState } from "arctic";
 import { cookies } from "next/headers";
 
-// Windsurf: Refactor | Explain | Generate JSDoc | X
 export async function GET() {
     const state = generateState();
     const codeVerifier = generateCodeVerifier();
@@ -15,7 +14,7 @@ export async function GET() {
         path: "/",
         secure: process.env.NODE_ENV === "production",
         httpOnly: true,
-        maxAge: 60 * 10, // 10 minutes
+        maxAge: 60 * 10, 
         sameSite: "lax",
     });
 
@@ -23,7 +22,7 @@ export async function GET() {
         path: "/",
         secure: process.env.NODE_ENV === "production",
         httpOnly: true,
-        maxAge: 60 * 10, // 10 minutes
+        maxAge: 60 * 10, 
         sameSite: "lax",
     });
 

@@ -43,12 +43,10 @@ interface DatabaseUserAttributes {
 }
 
 const getRedirectURI = () => {
-    // In development
     if (process.env.NODE_ENV === 'development') {
         return 'http://localhost:3000/api/auth/callback/google';
     }
     
-    // In production, use the main domain
     return 'https://truenorthtests.vercel.app/api/auth/callback/google';
 };
 

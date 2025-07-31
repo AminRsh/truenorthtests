@@ -9,6 +9,12 @@ const nextConfig: NextConfig = {
       port: '',
       pathname: '/**',
     },
+    {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+        port: '',
+        pathname: '/**',
+      },
   ],
 },
   async redirects() {
@@ -18,6 +24,7 @@ const nextConfig: NextConfig = {
         destination: '/home',
         permanent: false, 
       },
+      
     ];
   },
   serverExternalPackages: ["@node-rs/argon2"],
